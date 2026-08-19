@@ -13,6 +13,8 @@ I-AxonHill inezinhlelo ezimbili.
 
 ## Sebenzisa i-Axonhill Field uma usebenza ehlathini
 
+![I-Field Login ye-AxonHill efonini](../assets/screenshots/field/sign-in-field-login.png)
+
 Yisebenzise ukuze:
 
 - uqale usuku;
@@ -23,6 +25,8 @@ Yisebenzise ukuze:
 I-Field app yenzelwe ifoni.
 
 ## Sebenzisa i-Axonhill Office uma wenza umsebenzi wasehhovisi
+
+![I-Axonhill Office ibonisa i-HR Setup kukhompyutha](../assets/screenshots/office/choose-app-office-hr-setup.png)
 
 Yisebenzise ukuze:
 
@@ -38,4 +42,3 @@ I-Office app ilula kakhulu kukhompyutha.
 1. Luvale.
 2. Vula olunye uhlelo lwe-AxonHill.
 3. Ngena ngemininingwane yakho evamile.
-

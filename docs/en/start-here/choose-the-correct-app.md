@@ -13,6 +13,8 @@ AxonHill uses two apps.
 
 ## Use Axonhill Field when you are working in the field
 
+![AxonHill Field Login screen on a phone](../assets/screenshots/field/sign-in-field-login.png)
+
 Use it to:
 
 - start the day;
@@ -23,6 +25,8 @@ Use it to:
 The Field app is made for a phone.
 
 ## Use Axonhill Office when you are doing office work
+
+![Axonhill Office showing the HR Setup menu on a computer](../assets/screenshots/office/choose-app-office-hr-setup.png)
 
 Use it to:
 
@@ -38,4 +42,3 @@ The Office app is easiest to use on a computer.
 1. Close it.
 2. Open the other AxonHill app.
 3. Sign in with your normal app details.
-

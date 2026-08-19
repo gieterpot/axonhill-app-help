@@ -9,7 +9,7 @@ The isiZulu theme controls are locally translated as well. Their wording is part
 | Guide ID | Stable route | App/audience | English | isiZulu | Workflow evidence | Screenshot state |
 |---|---|---|---|---|---|---|
 | SITE-00 | `/en/` and `/zu/` | All | Draft | Draft translation | Not applicable | None required |
-| SH-01 | `/LANG/start-here/choose-the-correct-app/` | All | Draft | Draft translation | Sufficient for draft | Field candidate, Office recapture |
+| SH-01 | `/LANG/start-here/choose-the-correct-app/` | All | Draft | Draft translation | Sufficient for draft | Public Field Login and Office HR Setup images added |
 | SH-02/SH-05 | `/LANG/start-here/sign-in-and-sync/` | All | Draft | Draft translation | Field sign-in verified, remaining states partial | Public Field login image added; sync and Office images pending |
 | HELP-01 | `/LANG/start-here/find-and-share-help/` | All | Draft | Draft translation | Controls implemented, browser QA blocked | Help-site shots blocked |
 | FLD-01 to FLD-06 | `/LANG/field-work/record-attendance/` | Field supervisor | Draft | Draft translation | Configuration verified, controlled result pending | Supervisor recapture needed |
