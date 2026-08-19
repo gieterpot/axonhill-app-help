@@ -63,7 +63,15 @@
     .axonhill-copy-status { font-size: .68rem; min-height: 1rem; width: 100%; }
     @media (max-width: 44rem) {
       .axonhill-tools button,
-      .axonhill-tools a { flex: 1 1 auto; justify-content: center; }
+      .axonhill-tools a {
+        flex: 1 1 calc(50% - .5rem);
+        justify-content: center;
+        line-height: 1.25;
+        min-width: 0;
+        overflow-wrap: anywhere;
+        text-align: center;
+        white-space: normal;
+      }
     }
     @media print {
       .axonhill-tools, .md-header, .md-sidebar, .md-footer { display: none !important; }
