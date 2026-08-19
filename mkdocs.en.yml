@@ -1,5 +1,6 @@
 site_name: AxonHill App Help
 site_description: Simple help for the AxonHill Field and Office apps
+site_url: https://gieterpot.github.io/axonhill-app-help/en/
 docs_dir: docs/en
 use_directory_urls: true
 strict: true

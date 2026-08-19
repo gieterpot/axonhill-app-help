@@ -1,5 +1,6 @@
 site_name: Usizo Lwezinhlelo ze-AxonHill
 site_description: Usizo olulula lwe-AxonHill Field ne-AxonHill Office
+site_url: https://gieterpot.github.io/axonhill-app-help/zu/
 docs_dir: docs/zu
 use_directory_urls: true
 strict: true

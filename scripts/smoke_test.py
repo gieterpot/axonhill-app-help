@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import re
 import sys
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 
@@ -57,6 +58,25 @@ def main() -> int:
     }
     expected_search_terms = ("count", "attendance", "hg", "employee", "sync")
     for language in ("en", "zu"):
+        sitemap_file = SITE / language / "sitemap.xml"
+        expected_page_count = sum(1 for _ in (DOCS / language).rglob("*.md"))
+        if not sitemap_file.is_file():
+            errors.append(f"Missing {language} sitemap")
+        else:
+            try:
+                root = ET.parse(sitemap_file).getroot()
+                locations = root.findall(
+                    "{http://www.sitemaps.org/schemas/sitemap/0.9}url/"
+                    "{http://www.sitemaps.org/schemas/sitemap/0.9}loc"
+                )
+                if len(locations) != expected_page_count:
+                    errors.append(
+                        f"{language} sitemap has {len(locations)} URLs; "
+                        f"expected {expected_page_count}"
+                    )
+            except ET.ParseError:
+                errors.append(f"Invalid {language} sitemap")
+
         index_file = SITE / language / "search" / "search_index.json"
         if not index_file.is_file():
             errors.append(f"Missing {language} search index")
