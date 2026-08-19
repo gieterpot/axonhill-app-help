@@ -27,8 +27,17 @@ Have these ready:
 1. Open the Field app.
 2. Select **New Count**.
 3. On the Team page, choose the correct Team. Select **Next**.
+
+![New Count page for choosing a Team](../assets/screenshots/field/normal-count-01-select-team.png)
+
 4. Choose the correct Compartment. Select **Next**.
+
+![New Count page for choosing a Compartment](../assets/screenshots/field/normal-count-02-select-compartment.png)
+
 5. On **Select group and/or stripper**, choose the Harvest Group.
+
+![New Count page for choosing a Harvest Group](../assets/screenshots/field/normal-count-03-select-harvest-group.png)
+
 6. Check the chainsaw operator, markers and debarker shown for the group.
 7. If another chainsaw operator stood in, select **Different Chainsaw Operator than on Harvest Group name?**, then choose that person.
 8. Select **Next**.
@@ -39,6 +48,8 @@ Have these ready:
 2. Enter the quantity and any other required count details.
 3. Check the unit of measure.
 4. Select **Next**.
+
+![Work type, unit and quantity fields in New Count](../assets/screenshots/field/normal-count-04-worktype-and-quantity.png)
 
 ## Add notes and proof
 

@@ -27,8 +27,17 @@ Lungisa lokhu:
 1. Vula i-Field app.
 2. Khetha **New Count**.
 3. Ekhasini le-Team, khetha i-Team efanele. Khetha **Next**.
+
+![Ikhasi le-New Count lokukhetha i-Team](../assets/screenshots/field/normal-count-01-select-team.png)
+
 4. Khetha i-Compartment efanele. Khetha **Next**.
+
+![Ikhasi le-New Count lokukhetha i-Compartment](../assets/screenshots/field/normal-count-02-select-compartment.png)
+
 5. Ku-**Select group and/or stripper**, khetha i-Harvest Group.
+
+![Ikhasi le-New Count lokukhetha i-Harvest Group](../assets/screenshots/field/normal-count-03-select-harvest-group.png)
+
 6. Hlola i-chainsaw operator, ama-marker ne-debarker abonisiwe.
 7. Uma kusebenze omunye umuntu nge-chainsaw, khetha **Different Chainsaw Operator than on Harvest Group name?**, bese ukhetha lowo muntu.
 8. Khetha **Next**.
@@ -39,6 +48,8 @@ Lungisa lokhu:
 2. Faka inani neminye imininingwane edingekayo.
 3. Hlola i-unit of measure.
 4. Khetha **Next**.
+
+![Izinkambu ze-work type, i-unit nenani ku-New Count](../assets/screenshots/field/normal-count-04-worktype-and-quantity.png)
 
 ## Faka ama-note nobufakazi
 
