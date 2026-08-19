@@ -16,6 +16,7 @@ The isiZulu theme controls are locally translated as well. Their wording is part
 | FLD-07 to FLD-10 | `/LANG/field-work/submit-a-harvest-count/` | Field counter | Draft | Draft translation | Form pages verified, final result pending | Mixed candidate/private sources |
 | FLD-08 to FLD-11 | `/LANG/field-work/submit-a-batch-harvest-count/` | Field counter | Draft | Draft translation | Form pages verified, final result pending | Four public-safe form images added; crew/result images pending |
 | FLD-07/FLD-11 | `/LANG/field-work/verify-a-harvest-count/` | Field worker and counter | Draft | Draft translation | Text content verified, outcomes pending | Controlled test needed |
+| FLD-12 to FLD-14 | `/LANG/field-work/understand-count-statuses/` | Field counter | Draft | Draft translation | Status meanings verified, fresh transitions pending | Controlled status screenshots needed |
 | HR-13 | `/LANG/people-harvest-groups/change-a-member-role/` | Office/HR | Draft | Draft translation | Request form verified, result pending | Test group needed |
 | HR-10 | `/LANG/people-harvest-groups/add-an-employee/` | Office/HR | Draft | Draft translation | Request form verified, result pending | Test group needed |
 | HR-14 | `/LANG/people-harvest-groups/replace-a-chainsaw-operator/` | Office/HR | Draft | Draft translation | Filter/form verified, result pending | Test group needed |

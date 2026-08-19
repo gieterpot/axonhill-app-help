@@ -63,7 +63,7 @@ Use WebP for ordinary screenshots and PNG only when lossless text rendering is r
 
 ## Offline guides
 
-The build generates one self-contained HTML file per selected guide, with essential styles and local images embedded. The launch set covers Field attendance, normal and batch harvest-count submission, harvest-count verification and attendance reporting in both languages.
+The build generates one self-contained HTML file per selected guide, with essential styles and local images embedded. The launch set covers Field attendance, normal and batch harvest-count submission, harvest-count verification, count statuses and attendance reporting in both languages.
 
 To enable a guide later, add its matching relative Markdown path to `offline-guides.json`, for example:
 
