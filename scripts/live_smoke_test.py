@@ -14,6 +14,7 @@ DOCS = ROOT / "docs"
 DEFAULT_BASE_URL = "https://gieterpot.github.io/axonhill-app-help"
 SITEMAP_NAMESPACE = "http://www.sitemaps.org/schemas/sitemap/0.9"
 EMAIL_PATTERN = re.compile(rb"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}", re.IGNORECASE)
+APPROVED_CONTACT_EMAIL = b"potgietercjg@gmail.com"
 REQUIRED_HOME_ROUTES = (
     "record-attendance",
     "submit-a-harvest-count",
@@ -90,8 +91,12 @@ def main() -> int:
     for language in ("en", "zu"):
         url = f"{base_url}/{language}/"
         payload = responses.get(url, b"")
-        if EMAIL_PATTERN.search(payload):
-            errors.append(f"Email address exposed on the {language} home page")
+        email_addresses = {value.lower() for value in EMAIL_PATTERN.findall(payload)}
+        if email_addresses != {APPROVED_CONTACT_EMAIL}:
+            errors.append(
+                f"{language} home page email set is {sorted(email_addresses)}; "
+                f"expected only {APPROVED_CONTACT_EMAIL.decode()}"
+            )
         for route in REQUIRED_HOME_ROUTES:
             if route.encode() not in payload:
                 errors.append(f"{language} home page is missing route: {route}")

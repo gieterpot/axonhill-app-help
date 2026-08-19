@@ -13,6 +13,8 @@ SITE = ROOT / "site"
 PRIVATE_MARKERS = ("internal-private", "test-credentials", "app-export", "passwordinput")
 OFFLINE_MANIFEST = ROOT / "offline-guides.json"
 OFFLINE_IMAGE = re.compile(r'<img\b[^>]*\bsrc="([^"]+)"', re.IGNORECASE)
+EMAIL_PATTERN = re.compile(r"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}", re.IGNORECASE)
+APPROVED_CONTACT_EMAIL = "potgietercjg@gmail.com"
 
 
 def offline_output_name(relative: Path) -> str:
@@ -58,6 +60,19 @@ def main() -> int:
     }
     expected_search_terms = ("count", "attendance", "hg", "employee", "sync")
     for language in ("en", "zu"):
+        language_home = SITE / language / "index.html"
+        if not language_home.is_file():
+            errors.append(f"Missing {language} home page")
+        else:
+            email_addresses = {
+                value.lower() for value in EMAIL_PATTERN.findall(language_home.read_text(encoding="utf-8"))
+            }
+            if email_addresses != {APPROVED_CONTACT_EMAIL}:
+                errors.append(
+                    f"{language} home page email set is {sorted(email_addresses)}; "
+                    f"expected only {APPROVED_CONTACT_EMAIL}"
+                )
+
         sitemap_file = SITE / language / "sitemap.xml"
         expected_page_count = sum(1 for _ in (DOCS / language).rglob("*.md"))
         if not sitemap_file.is_file():

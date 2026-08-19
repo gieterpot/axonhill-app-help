@@ -44,4 +44,4 @@ Choose what you need help with.
 
 ## Get help
 
-If a guide does not solve the problem, ask your supervisor or use the correct work WhatsApp group.
+If a guide does not solve the problem, ask your supervisor or use the correct work WhatsApp group. You can also email [potgietercjg@gmail.com](mailto:potgietercjg@gmail.com).
