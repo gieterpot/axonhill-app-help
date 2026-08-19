@@ -7,7 +7,7 @@ reviewed: 2026-08-19
 
 # View current Harvest Group members
 
-<p class="guide-meta">Verified with an isolated test Harvest Group on 19 August 2026.</p>
+<p class="guide-meta">Verified before and after a controlled role change in an isolated test Harvest Group on 19 August 2026.</p>
 
 Use this when you need the people who are currently assigned to a Harvest Group. Old assignments are excluded.
 

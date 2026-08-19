@@ -7,7 +7,7 @@ reviewed: 2026-08-19
 
 # Buka wonke umlando wamalungu e-Harvest Group
 
-<p class="guide-meta">Umzila ne-filter ye-Harvest Group kuhloliwe. Umphumela welungu eliqediwe usadinga ukuhlolwa kokugcina. Umbhalo wesiZulu usadinga ukuhlolwa umuntu okhuluma isiZulu kahle.</p>
+<p class="guide-meta">Lo mzila uhlolwe ngokushintsha umsebenzi okulawulwayo nge-Harvest Group yokuhlola ehlukile ngomhlaka 19 Agasti 2026. Umbhalo wesiZulu usadinga ukuhlolwa umuntu okhuluma isiZulu kahle.</p>
 
 Sebenzisa lokhu ukuze ubone ama-assignment amanje namadala e-Harvest Group.
 
@@ -22,6 +22,6 @@ Sebenzisa lokhu ukuze ubone ama-assignment amanje namadala e-Harvest Group.
 
 ![Wonke umlando wamalungu e-Harvest Group yokuhlola](../assets/screenshots/office/hg-full-membership-history.png)
 
-Umugqa osebenzayo ubhalwe **Y**. I-assignment ephelile kufanele ihlale lapha nosuku lokuphela, noma ingasabonakali ku-**Current members**.
+Umugqa osebenzayo ubhalwe **Y**. I-assignment ephelile ibhalwe **N** futhi ihlala lapha nosuku lokuphela, noma ingasabonakali ku-**Current members**.
 
 Ukuhlola umsebenzi wansuku zonke, sebenzisa **Current members**. Ungashintshi umugqa omdala ukuze wenze i-history ibukeke ihlanzekile.
