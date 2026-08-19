@@ -27,6 +27,7 @@ The isiZulu theme controls are locally translated as well. Their wording is part
 | OFF-02 | `/LANG/office-work/review-a-count-needing-attention/` | Office/admin | Draft | Draft translation | Queue/detail verified, override result pending | Controlled test needed |
 | OFF-06 to OFF-07 | `/LANG/office-work/create-an-attendance-report/` | Office/admin | Draft | Draft translation | Form and existing result verified, new result pending | Controlled test needed |
 | SH-06 | `/LANG/fix-a-problem/app-will-not-open-or-sync/` | All | Draft | Draft translation | Error wording verified | None required |
+| HR-10 to HR-15 | `/LANG/fix-a-problem/missing-employee-team-or-harvest-group/` | Office/HR | Draft | Draft translation | Current selector rules verified, controlled failures pending | No screenshot required for launch |
 | REL-00 | `/LANG/what-changed/` | All | Draft | Draft translation | Not applicable | None required |
 
 ## P0 guides awaiting final workflow evidence

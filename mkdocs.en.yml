@@ -66,6 +66,7 @@ nav:
       - Create an attendance report: office-work/create-an-attendance-report.md
   - Fix a problem:
       - App will not open or sync: fix-a-problem/app-will-not-open-or-sync.md
+      - Employee, Team or Harvest Group is missing: fix-a-problem/missing-employee-team-or-harvest-group.md
   - What changed: what-changed/index.md
 
 extra:
