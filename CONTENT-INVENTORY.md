@@ -11,6 +11,7 @@ The isiZulu theme controls are locally translated as well. Their wording is part
 | SITE-00 | `/en/` and `/zu/` | All | Draft | Draft translation | Not applicable | None required |
 | SH-01 | `/LANG/start-here/choose-the-correct-app/` | All | Draft | Draft translation | Sufficient for draft | Public Field Login and Office HR Setup images added |
 | SH-02/SH-05 | `/LANG/start-here/sign-in-and-sync/` | All | Draft | Draft translation | Field sign-in verified, remaining states partial | Public Field login image added; sync and Office images pending |
+| SH-03/SH-04 | `/LANG/start-here/change-password-and-sign-out/` | All | Draft | Draft translation | Field sign-out and Office configuration verified, password result pending | Public Field profile image added; Office result pending |
 | HELP-01 | `/LANG/start-here/find-and-share-help/` | All | Draft | Draft translation | Controls implemented, browser QA blocked | Help-site shots blocked |
 | FLD-01 to FLD-06 | `/LANG/field-work/record-attendance/` | Field supervisor | Draft | Draft translation | Configuration verified, controlled result pending | Supervisor recapture needed |
 | FLD-07 to FLD-10 | `/LANG/field-work/submit-a-harvest-count/` | Field counter | Draft | Draft translation | Form pages verified, final result pending | Mixed candidate/private sources |
