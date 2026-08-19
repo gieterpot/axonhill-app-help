@@ -1,5 +1,7 @@
 {
   "enabled": [
+    "field-work/record-attendance.md",
+    "field-work/submit-a-harvest-count.md",
     "field-work/submit-a-batch-harvest-count.md",
     "field-work/verify-a-harvest-count.md",
     "office-work/create-an-attendance-report.md"

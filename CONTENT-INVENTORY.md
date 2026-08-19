@@ -12,6 +12,8 @@ The isiZulu theme controls are locally translated as well. Their wording is part
 | SH-01 | `/LANG/start-here/choose-the-correct-app/` | All | Draft | Draft translation | Sufficient for draft | Field candidate, Office recapture |
 | SH-02/SH-05 | `/LANG/start-here/sign-in-and-sync/` | All | Draft | Draft translation | Field sign-in verified, remaining states partial | Recapture needed |
 | HELP-01 | `/LANG/start-here/find-and-share-help/` | All | Draft | Draft translation | Controls implemented, browser QA blocked | Help-site shots blocked |
+| FLD-01 to FLD-06 | `/LANG/field-work/record-attendance/` | Field supervisor | Draft | Draft translation | Configuration verified, controlled result pending | Supervisor recapture needed |
+| FLD-07 to FLD-10 | `/LANG/field-work/submit-a-harvest-count/` | Field counter | Draft | Draft translation | Form pages verified, final result pending | Mixed candidate/private sources |
 | FLD-08 to FLD-11 | `/LANG/field-work/submit-a-batch-harvest-count/` | Field counter | Draft | Draft translation | Form pages verified, final result pending | Mixed candidate/private sources |
 | FLD-07/FLD-11 | `/LANG/field-work/verify-a-harvest-count/` | Field worker and counter | Draft | Draft translation | Text content verified, outcomes pending | Controlled test needed |
 | HR-13 | `/LANG/people-harvest-groups/change-a-member-role/` | Office/HR | Draft | Draft translation | Request form verified, result pending | Test group needed |
@@ -25,11 +27,9 @@ The isiZulu theme controls are locally translated as well. Their wording is part
 | SH-06 | `/LANG/fix-a-problem/app-will-not-open-or-sync/` | All | Draft | Draft translation | Error wording verified | None required |
 | REL-00 | `/LANG/what-changed/` | All | Draft | Draft translation | Not applicable | None required |
 
-## P0 guides not yet in navigation
+## P0 guides awaiting final workflow evidence
 
-| Guide | Reason |
-|---|---|
-| Record attendance | Supervisor emulator route is blocked and team-selection behaviour needs current evidence |
+The Field attendance and normal-count guides are now in navigation and in the approved offline set. Both remain drafts until controlled result evidence is captured.
 
 ## P1/P2 guides waiting on product decisions or evidence
 
