@@ -22,7 +22,7 @@ The isiZulu theme controls are locally translated as well and follow the same us
 | HR-08 | `/LANG/people-harvest-groups/view-membership-history/` | Office/HR | Verified | Published feedback | Route, role column and ended membership verified | Public Codex-only history screenshot added |
 | HR-13 | `/LANG/people-harvest-groups/change-a-member-role/` | Office/HR | Verified | Published feedback | Controlled Marker-to-Debarker request succeeded | Current and full-history result images added |
 | HR-10 | `/LANG/people-harvest-groups/add-an-employee/` | Office/HR | Verified | Published feedback | Three controlled additional-assignment requests succeeded | Current-members result image added |
-| HR-14 | `/LANG/people-harvest-groups/replace-a-chainsaw-operator/` | Office/HR | Draft | Published feedback | Filter/form verified, result pending | Test group needed |
+| HR-14 | `/LANG/people-harvest-groups/replace-a-chainsaw-operator/` | Office/HR | Draft | Published feedback | Filter/form verified; test group and second operator prepared | Controlled processed result pending |
 | HR-09 | `/LANG/people-harvest-groups/share-a-harvest-group-summary/` | Office/HR | Draft | Published feedback | Final layout verified; exact action opened the correct WhatsApp chat with an empty message | Public Codex-only layout image retained; guide now states the confirmed limitation |
 | OFF-01 | `/LANG/office-work/use-the-dashboard/` | Office/admin | Draft | Published feedback | Dashboard panels verified | Demonstration data needed |
 | OFF-03 | `/LANG/office-work/find-a-worklog/` | Office/admin | Draft | Published feedback | List, detail and source-count link verified | Demonstration data needed |
