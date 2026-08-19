@@ -2,7 +2,7 @@
 
 Last updated: 19 August 2026
 
-English is the operational source. Every isiZulu page requires fluent review before publication.
+English is the operational source. Every isiZulu page requires fluent review before it can be marked approved.
 
 The isiZulu theme controls are locally translated as well. Their wording is part of the fluent-review scope.
 
@@ -12,7 +12,7 @@ The isiZulu theme controls are locally translated as well. Their wording is part
 | SH-01 | `/LANG/start-here/choose-the-correct-app/` | All | Draft | Draft translation | Sufficient for draft | Public Field Login and Office HR Setup images added |
 | SH-02/SH-05 | `/LANG/start-here/sign-in-and-sync/` | All | Draft | Draft translation | Field sign-in verified, remaining states partial | Public Field login image added; sync and Office images pending |
 | SH-03/SH-04 | `/LANG/start-here/manage-your-account/` | All | Draft | Draft translation | Field sign-out and Office configuration verified, password result pending | Public Field profile image added; Office result pending |
-| HELP-01 | `/LANG/start-here/find-and-share-help/` | All | Draft | Draft translation | Controls implemented, browser QA blocked | Help-site shots blocked |
+| HELP-01 | `/LANG/start-here/find-and-share-help/` | All | Draft | Draft translation | Share, WhatsApp, copy-link, language and offline-download controls passed rendered mobile QA | Public 390 px help-site capture verified |
 | FLD-01 to FLD-06 | `/LANG/field-work/record-attendance/` | Field supervisor | Draft | Draft translation | Configuration verified, controlled result pending | Supervisor recapture needed |
 | FLD-07 to FLD-10 | `/LANG/field-work/submit-a-harvest-count/` | Field counter | Draft | Draft translation | Form pages verified, final result pending | Four public native form images added; crew, proof, verification and result images pending |
 | FLD-08 to FLD-11 | `/LANG/field-work/submit-a-batch-harvest-count/` | Field counter | Draft | Draft translation | Form pages verified, final result pending | Four public-safe form images added; crew/result images pending |

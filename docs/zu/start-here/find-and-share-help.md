@@ -30,9 +30,9 @@ Ekhasini lesiZulu, khetha **Funda nge-English** ukuze ubuyele ku-English.
 
 Phezulu komhlahlandlela, khetha okukodwa:
 
-- **Share** ivula indawo ejwayelekile yefoni yokwabelana, uma i-browser iyisekela.
-- **Share on WhatsApp** ivula i-WhatsApp inesihloko nesixhumanisi somhlahlandlela.
-- **Copy link** ikopisha isixhumanisi ukuze usifake emlayezweni.
+- **Yabelana** ivula indawo ejwayelekile yefoni yokwabelana, uma i-browser iyisekela.
+- **Yabelana ku-WhatsApp** ivula i-WhatsApp inesihloko nesixhumanisi somhlahlandlela.
+- **Kopisha isixhumanisi** ikopisha isixhumanisi ukuze usifake emlayezweni.
 
 Hlola umlayezo ngaphambi kokuwuthumela.
 
