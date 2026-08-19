@@ -11,6 +11,8 @@ reviewed: 2026-08-19
 
 Sebenzisa lokhu ukuthumela abantu abakhona ku-Harvest Group ku-WhatsApp group yomsebenzi ukuze bahlolwe.
 
+![I-HR Setup enethayela le-Harvesting Groups](../assets/screenshots/office/choose-app-office-hr-setup.png)
+
 ## Izinyathelo
 
 1. Vula i-Office app.
@@ -33,4 +35,3 @@ Isihloko sokuqala sibonisa i-Team ne-Chainsaw Operator. Umlayezo ube usubala:
 Kufanele kubonakale amalungu akhona futhi asebenzayo kuphela.
 
 Uma kuvela umuntu omdala noma ongasasebenzi kule group, ungawuthumeli umlayezo njengokuqinisekisa. Qala ubike ubulungu obungalungile.
-

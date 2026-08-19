@@ -11,6 +11,8 @@ reviewed: 2026-08-19
 
 Use this when a current Harvest Group member must do a different role.
 
+![HR Setup menu with the Harvesting Groups tile](../assets/screenshots/office/choose-app-office-hr-setup.png)
+
 ## Steps
 
 1. Open the Office app.
@@ -33,4 +35,3 @@ Use this when a current Harvest Group member must do a different role.
 3. Check that the employee's current membership shows the new role.
 
 If the old and new roles both look current, do not make another request. Report it to the administrator.
-

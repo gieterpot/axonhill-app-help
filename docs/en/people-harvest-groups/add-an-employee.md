@@ -11,6 +11,8 @@ reviewed: 2026-08-19
 
 Use this to give an employee an additional Harvest Group assignment.
 
+![HR Setup menu with the Harvesting Groups tile](../assets/screenshots/office/choose-app-office-hr-setup.png)
+
 ## Steps
 
 1. Open the Office app.
@@ -31,4 +33,3 @@ The role is required. Do not leave **With this role** blank.
 ## Check the result
 
 After the app syncs, open the Harvest Group again. The employee should appear as a current member with the selected role.
-

@@ -11,6 +11,8 @@ reviewed: 2026-08-19
 
 Use this to send the current Harvest Group composition to the work WhatsApp group for checking.
 
+![HR Setup menu with the Harvesting Groups tile](../assets/screenshots/office/choose-app-office-hr-setup.png)
+
 ## Steps
 
 1. Open the Office app.
@@ -33,4 +35,3 @@ The first heading identifies the Team and Chainsaw Operator. The message then li
 Only current active Harvest Group members should appear.
 
 If an old or inactive member appears, do not send the message as confirmation. Report the incorrect membership first.
-

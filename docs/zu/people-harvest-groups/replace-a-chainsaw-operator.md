@@ -13,6 +13,8 @@ Sebenzisa lokhu uma umuntu oyedwa eyeka ukuba i-chainsaw operator ye-group, omun
 
 Umuntu omdala uyasuswa ku-Harvest Group. Sebenzisa ukushintsha umsebenzi okuvamile uma umuntu omdala kufanele ahlale kule group enza omunye umsebenzi.
 
+![I-HR Setup enethayela le-Harvesting Groups](../assets/screenshots/office/choose-app-office-hr-setup.png)
+
 ## Izinyathelo
 
 1. Vula i-Office app.
@@ -34,4 +36,3 @@ Uma uhlelo seluvumelanisile, vula i-Harvest Group futhi. Hlola ukuthi:
 
 - umuntu omusha uyi-**Chainsaw Operator** yamanje;
 - umuntu wangaphambili akaselona ilungu lamanje lale Harvest Group.
-

@@ -11,6 +11,8 @@ reviewed: 2026-08-19
 
 Sebenzisa lokhu ukuze unikeze umsebenzi enye i-Harvest Group assignment.
 
+![I-HR Setup enethayela le-Harvesting Groups](../assets/screenshots/office/choose-app-office-hr-setup.png)
+
 ## Izinyathelo
 
 1. Vula i-Office app.
@@ -31,4 +33,3 @@ Umsebenzi wakhe uyadingeka. Ungashiyi **With this role** ingenalutho.
 ## Hlola umphumela
 
 Uma uhlelo seluvumelanisile, vula i-Harvest Group futhi. Umsebenzi kufanele abonakale njengelungu lamanje nomsebenzi owukhethile.
-

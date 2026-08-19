@@ -11,6 +11,8 @@ reviewed: 2026-08-19
 
 Sebenzisa lokhu uma ilungu elikhona le-Harvest Group kufanele lenze omunye umsebenzi.
 
+![I-HR Setup enethayela le-Harvesting Groups](../assets/screenshots/office/choose-app-office-hr-setup.png)
+
 ## Izinyathelo
 
 1. Vula i-Office app.
@@ -33,4 +35,3 @@ Sebenzisa lokhu uma ilungu elikhona le-Harvest Group kufanele lenze omunye umseb
 3. Hlola ukuthi ubulungu bamanje bomsebenzi bubonisa umsebenzi omusha.
 
 Uma umsebenzi omdala nomusha kubonakala kusebenza kokubili, ungenzi enye i-request. Bika kumlawuli wohlelo.
-

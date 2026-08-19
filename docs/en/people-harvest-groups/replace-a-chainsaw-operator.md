@@ -13,6 +13,8 @@ Use this when one person must stop being the group's chainsaw operator and anoth
 
 The old operator is removed from the Harvest Group. Use a normal role change instead if the old operator must stay in the group in another role.
 
+![HR Setup menu with the Harvesting Groups tile](../assets/screenshots/office/choose-app-office-hr-setup.png)
+
 ## Steps
 
 1. Open the Office app.
@@ -34,4 +36,3 @@ After the app syncs, open the Harvest Group again. Check that:
 
 - the new operator is the current **Chainsaw Operator**;
 - the previous operator is no longer a current member of that Harvest Group.
-
