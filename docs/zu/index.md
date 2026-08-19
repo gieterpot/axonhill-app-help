@@ -32,4 +32,4 @@ Khetha usizo oludingayo.
 
 ## Thola usizo
 
-Uma umhlahlandlela ungakusizi, buza umphathi wakho noma usebenzise i-WhatsApp group efanele. Ungathumela ne-imeyili ku-`potgietercjg@gmail.com`.
+Uma umhlahlandlela ungakusizi, buza umphathi wakho noma usebenzise i-WhatsApp group efanele.
