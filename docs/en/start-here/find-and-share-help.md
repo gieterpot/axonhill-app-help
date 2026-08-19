@@ -36,3 +36,12 @@ At the top of the guide, choose one option:
 
 Check the message before sending it.
 
+## Download a guide for offline use
+
+Approved count and attendance guides show **Download for offline use** at the top.
+
+1. Select **Download for offline use**.
+2. Send the downloaded HTML file through WhatsApp, or keep it on the phone.
+3. Open the file in a browser when there is no signal.
+
+The offline file is a saved copy. Use the online guide again when you have a connection so that you see the latest instructions.

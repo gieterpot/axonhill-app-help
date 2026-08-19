@@ -37,6 +37,7 @@ def main() -> int:
         )
 
     run(sys.executable, str(ROOT / "scripts" / "build_offline.py"))
+    shutil.copy2(ROOT / "offline-guides.json", SITE / "offline-guides.json")
     shutil.copy2(ROOT / "landing" / "index.html", SITE / "index.html")
     (SITE / ".nojekyll").write_text("", encoding="utf-8")
     run(sys.executable, str(ROOT / "scripts" / "smoke_test.py"))

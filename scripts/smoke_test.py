@@ -39,9 +39,21 @@ def main() -> int:
     if not (SITE / ".nojekyll").is_file():
         errors.append("Missing .nojekyll")
 
+    published_manifest = SITE / "offline-guides.json"
+    if not published_manifest.is_file():
+        errors.append("Missing published offline guide manifest")
+    else:
+        try:
+            if json.loads(published_manifest.read_text(encoding="utf-8")) != json.loads(
+                OFFLINE_MANIFEST.read_text(encoding="utf-8")
+            ):
+                errors.append("Published offline guide manifest does not match the source")
+        except json.JSONDecodeError:
+            errors.append("Published offline guide manifest is invalid")
+
     expected_controls = {
-        "en": ("Share on WhatsApp", "Funda ngesiZulu"),
-        "zu": ("Yabelana ku-WhatsApp", "Funda nge-English"),
+        "en": ("Share on WhatsApp", "Download for offline use", "Funda ngesiZulu"),
+        "zu": ("Yabelana ku-WhatsApp", "Landa ukuze usebenzise ngaphandle kwe-internet", "Funda nge-English"),
     }
     for language in ("en", "zu"):
         index_file = SITE / language / "search" / "search_index.json"

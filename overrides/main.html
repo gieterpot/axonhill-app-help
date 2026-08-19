@@ -82,12 +82,14 @@
         whatsapp: "Yabelana ku-WhatsApp",
         copy: "Kopisha isixhumanisi",
         copied: "Isixhumanisi sikopishiwe.",
+        offline: "Landa ukuze usebenzise ngaphandle kwe-internet",
         switchLanguage: "Funda nge-English"
       } : {
         share: "Share",
         whatsapp: "Share on WhatsApp",
         copy: "Copy link",
         copied: "Link copied.",
+        offline: "Download for offline use",
         switchLanguage: "Funda ngesiZulu"
       };
 
@@ -98,6 +100,46 @@
       function languageUrl() {
         const marker = new RegExp("/(en|zu)(/|$)");
         return window.location.pathname.replace(marker, `/${otherLanguage}$2`) + window.location.search;
+      }
+
+      function siteBasePath() {
+        const marker = `/${language}/`;
+        const index = window.location.pathname.indexOf(marker);
+        return index >= 0 ? window.location.pathname.slice(0, index + 1) : "/";
+      }
+
+      function sourcePath() {
+        const marker = `/${language}/`;
+        const index = window.location.pathname.indexOf(marker);
+        if (index < 0) return "";
+        const relative = window.location.pathname
+          .slice(index + marker.length)
+          .replace(/^\/+|\/+$/g, "");
+        return relative ? `${relative}.md` : "index.md";
+      }
+
+      function offlineFileName(source) {
+        return source.replace(/\.md$/, "").replaceAll("/", "-") + ".html";
+      }
+
+      async function addOfflineLink(tools, status) {
+        const basePath = siteBasePath();
+        const source = sourcePath();
+        if (!source) return;
+        try {
+          const response = await fetch(`${basePath}offline-guides.json`, { cache: "no-cache" });
+          if (!response.ok) return;
+          const manifest = await response.json();
+          if (!Array.isArray(manifest.enabled) || !manifest.enabled.includes(source)) return;
+
+          const offline = document.createElement("a");
+          offline.href = `${basePath}downloads/${language}/${offlineFileName(source)}`;
+          offline.setAttribute("download", "");
+          offline.textContent = labels.offline;
+          tools.insertBefore(offline, status);
+        } catch (_) {
+          // The online guide remains usable if the manifest cannot be loaded.
+        }
       }
 
       async function copyUrl(status) {
@@ -157,6 +199,7 @@
         copy.addEventListener("click", () => copyUrl(status));
         tools.appendChild(copy);
         tools.appendChild(status);
+        addOfflineLink(tools, status);
 
         heading.insertAdjacentElement("afterend", tools);
       }
@@ -169,4 +212,3 @@
     })();
   </script>
 {% endblock %}
-

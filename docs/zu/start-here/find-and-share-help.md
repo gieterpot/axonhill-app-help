@@ -36,3 +36,12 @@ Phezulu komhlahlandlela, khetha okukodwa:
 
 Hlola umlayezo ngaphambi kokuwuthumela.
 
+## Landa umhlahlandlela ukuze uwusebenzise ngaphandle kwe-internet
+
+Imihlahlandlela evunyelwe yokubala ne-attendance ibonisa **Landa ukuze usebenzise ngaphandle kwe-internet** phezulu.
+
+1. Khetha **Landa ukuze usebenzise ngaphandle kwe-internet**.
+2. Thumela ifayela le-HTML elilandiwe nge-WhatsApp, noma uligcine efonini.
+3. Vula ifayela ku-browser uma kungekho signal.
+
+Ifayela elilandiwe liyikhophi egciniwe. Uma usunayo i-internet futhi, sebenzisa umhlahlandlela oku-internet ukuze ubone iziqondiso zakamuva.
