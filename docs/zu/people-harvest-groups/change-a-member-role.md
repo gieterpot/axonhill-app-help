@@ -7,7 +7,7 @@ reviewed: 2026-08-19
 
 # Shintsha umsebenzi welungu le-Harvest Group
 
-<p class="guide-meta">Kusalungiswa. Ifomu le-request lihloliwe. Umphumela wokugcina usadinga ukuhlolwa.</p>
+<p class="guide-meta">Lo mzila uhlolwe ngokushintsha umsebenzi kusuka ku-Marker kuya ku-Debarker nge-Harvest Group yokuhlola ehlukile ngomhlaka 19 Agasti 2026. Umbhalo wesiZulu usadinga ukuhlolwa umuntu okhuluma isiZulu kahle.</p>
 
 Sebenzisa lokhu uma ilungu elikhona le-Harvest Group kufanele lenze omunye umsebenzi.
 
@@ -33,5 +33,11 @@ Sebenzisa lokhu uma ilungu elikhona le-Harvest Group kufanele lenze omunye umseb
 1. Linda uhlelo luvumelanise.
 2. Vula i-Harvest Group futhi.
 3. Hlola ukuthi ubulungu bamanje bomsebenzi bubonisa umsebenzi omusha.
+
+![Amalungu amanje abonisa umsebenzi omusha](../assets/screenshots/office/hg-current-members.png)
+
+Vula **Full membership history** uma ufuna ukuqinisekisa ushintsho. Umsebenzi omdala uhlala njengomugqa ophelile, futhi umsebenzi omusha ubonakala usebenza.
+
+![Umlando ogcwele obonisa umsebenzi ophelile nomusha](../assets/screenshots/office/hg-full-membership-history.png)
 
 Uma umsebenzi omdala nomusha kubonakala kusebenza kokubili, ungenzi enye i-request. Bika kumlawuli wohlelo.

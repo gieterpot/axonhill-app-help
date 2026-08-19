@@ -1,13 +1,13 @@
 ---
 title: Change a Harvest Group member role
 flow_id: HR-13
-status: draft
+status: verified
 reviewed: 2026-08-19
 ---
 
 # Change a Harvest Group member role
 
-<p class="guide-meta">Draft. The request form is verified. The final processed result still needs a controlled test.</p>
+<p class="guide-meta">Verified with a controlled Marker-to-Debarker change in an isolated test Harvest Group on 19 August 2026.</p>
 
 Use this when a current Harvest Group member must do a different role.
 
@@ -33,5 +33,11 @@ Use this when a current Harvest Group member must do a different role.
 1. Wait for the app to sync.
 2. Open the Harvest Group again.
 3. Check that the employee's current membership shows the new role.
+
+![Current members showing the employee's new role](../assets/screenshots/office/hg-current-members.png)
+
+Open **Full membership history** if you need to confirm the change. The old role remains as an ended row and the new role appears as active.
+
+![Full membership history showing the ended and active roles](../assets/screenshots/office/hg-full-membership-history.png)
 
 If the old and new roles both look current, do not make another request. Report it to the administrator.

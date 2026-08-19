@@ -7,7 +7,7 @@ reviewed: 2026-08-19
 
 # Faka umsebenzi ku-Harvest Group
 
-<p class="guide-meta">Kusalungiswa. Ifomu le-request lihloliwe. Umphumela wokugcina usadinga ukuhlolwa.</p>
+<p class="guide-meta">Lo mzila uhlolwe ngama-request amathathu okulawulwa nge-Harvest Group yokuhlola ehlukile ngomhlaka 19 Agasti 2026. Umbhalo wesiZulu usadinga ukuhlolwa umuntu okhuluma isiZulu kahle.</p>
 
 Sebenzisa lokhu ukuze unikeze umsebenzi enye i-Harvest Group assignment.
 
@@ -33,3 +33,7 @@ Umsebenzi wakhe uyadingeka. Ungashiyi **With this role** ingenalutho.
 ## Hlola umphumela
 
 Uma uhlelo seluvumelanisile, vula i-Harvest Group futhi. Umsebenzi kufanele abonakale njengelungu lamanje nomsebenzi owukhethile.
+
+![Amalungu amanje ngemuva kwama-assignment okulawulwa](../assets/screenshots/office/hg-current-members.png)
+
+Uma umsebenzi engabonakali, ungathumeli i-request efanayo futhi ngokushesha. Hlola umphumela we-request noma ucele umlawuli wohlelo ukuthi ayiphenye.

@@ -1,13 +1,13 @@
 ---
 title: Add an employee to a Harvest Group
 flow_id: HR-10
-status: draft
+status: verified
 reviewed: 2026-08-19
 ---
 
 # Add an employee to a Harvest Group
 
-<p class="guide-meta">Draft. The request form is verified. The final processed result still needs a controlled test.</p>
+<p class="guide-meta">Verified with three controlled requests in an isolated test Harvest Group on 19 August 2026.</p>
 
 Use this to give an employee an additional Harvest Group assignment.
 
@@ -33,3 +33,7 @@ The role is required. Do not leave **With this role** blank.
 ## Check the result
 
 After the app syncs, open the Harvest Group again. The employee should appear as a current member with the selected role.
+
+![Current members after controlled employee assignments](../assets/screenshots/office/hg-current-members.png)
+
+If the employee does not appear, do not submit the same request again immediately. Check the request result or ask the administrator to investigate it.
