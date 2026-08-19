@@ -20,15 +20,27 @@ Khetha usizo oludingayo.
 
 ## Umsebenzi wasehlathini
 
+- [Rekhoda i-attendance](field-work/record-attendance.md)
+- [Thumela ukubalwa komsebenzi](field-work/submit-a-harvest-count.md)
 - [Thumela ukubalwa kwe-batch](field-work/submit-a-batch-harvest-count.md)
 - [Qinisekisa ukubalwa](field-work/verify-a-harvest-count.md)
+- [Qonda ama-status okubalwa](field-work/understand-count-statuses.md)
 
 ## Ama-Harvest Group
 
+- [Buka amalungu amanje](people-harvest-groups/view-current-members.md)
+- [Buka wonke umlando wamalungu](people-harvest-groups/view-membership-history.md)
 - [Shintsha umsebenzi welungu](people-harvest-groups/change-a-member-role.md)
 - [Faka umsebenzi eqenjini](people-harvest-groups/add-an-employee.md)
 - [Shintsha osebenzisa i-chainsaw](people-harvest-groups/replace-a-chainsaw-operator.md)
 - [Yabelana ngesifinyezo se-Harvest Group](people-harvest-groups/share-a-harvest-group-summary.md)
+
+## Umsebenzi wasehhovisi
+
+- [Sebenzisa i-dashboard](office-work/use-the-dashboard.md)
+- [Thola i-worklog nokubalwa kwayo](office-work/find-a-worklog.md)
+- [Hlola ukubalwa okudinga ukunakwa](office-work/review-a-count-needing-attention.md)
+- [Yenza i-attendance report](office-work/create-an-attendance-report.md)
 
 ## Thola usizo
 

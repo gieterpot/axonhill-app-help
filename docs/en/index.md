@@ -20,15 +20,27 @@ Choose what you need help with.
 
 ## Field work
 
+- [Record attendance](field-work/record-attendance.md)
+- [Submit a harvest count](field-work/submit-a-harvest-count.md)
 - [Submit a batch harvest count](field-work/submit-a-batch-harvest-count.md)
 - [Verify a harvest count](field-work/verify-a-harvest-count.md)
+- [Understand count statuses](field-work/understand-count-statuses.md)
 
 ## Harvest Groups
 
+- [View current members](people-harvest-groups/view-current-members.md)
+- [View full membership history](people-harvest-groups/view-membership-history.md)
 - [Change a member role](people-harvest-groups/change-a-member-role.md)
 - [Add an employee](people-harvest-groups/add-an-employee.md)
 - [Replace a chainsaw operator](people-harvest-groups/replace-a-chainsaw-operator.md)
 - [Share a Harvest Group summary](people-harvest-groups/share-a-harvest-group-summary.md)
+
+## Office work
+
+- [Use the dashboard](office-work/use-the-dashboard.md)
+- [Find a worklog and view its count](office-work/find-a-worklog.md)
+- [Review a count needing attention](office-work/review-a-count-needing-attention.md)
+- [Create an attendance report](office-work/create-an-attendance-report.md)
 
 ## Get help
 
