@@ -55,6 +55,8 @@ nav:
       - Verify a harvest count: field-work/verify-a-harvest-count.md
       - Understand count statuses: field-work/understand-count-statuses.md
   - People and Harvest Groups:
+      - View current members: people-harvest-groups/view-current-members.md
+      - View full membership history: people-harvest-groups/view-membership-history.md
       - Change a member role: people-harvest-groups/change-a-member-role.md
       - Add an employee: people-harvest-groups/add-an-employee.md
       - Replace a chainsaw operator: people-harvest-groups/replace-a-chainsaw-operator.md

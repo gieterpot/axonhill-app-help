@@ -7,7 +7,7 @@ reviewed: 2026-08-19
 
 # Yabelana ngesifinyezo se-Harvest Group
 
-<p class="guide-meta">Kusalungiswa. Inkinobho nombhalo kuhloliwe. I-WhatsApp preview yokugcina isadinga ukuhlolwa okuvunyelwe.</p>
+<p class="guide-meta">Kusalungiswa. Inkinobho, umbhalo nokubukeka kokugcina ku-WhatsApp kuhlolwe ngamagama e-Codex kuphela. Ukusuka ngqo ku-app ukuya ku-WhatsApp kusadinga ukuhlolwa kokugcina.</p>
 
 Sebenzisa lokhu ukuthumela abantu abakhona ku-Harvest Group ku-WhatsApp group yomsebenzi ukuze bahlolwe.
 
@@ -33,5 +33,7 @@ Isihloko sokuqala sibonisa i-Team ne-Chainsaw Operator. Umlayezo ube usubala:
 - ama-**Debarkers**.
 
 Kufanele kubonakale amalungu akhona futhi asebenzayo kuphela.
+
+![Isibonelo somlayezo wokugcina we-Harvest Group ku-WhatsApp](../assets/screenshots/office/hg-whatsapp-composition-preview.png)
 
 Uma kuvela umuntu omdala noma ongasasebenzi kule group, ungawuthumeli umlayezo njengokuqinisekisa. Qala ubike ubulungu obungalungile.

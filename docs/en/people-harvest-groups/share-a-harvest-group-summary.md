@@ -7,7 +7,7 @@ reviewed: 2026-08-19
 
 # Share a Harvest Group summary
 
-<p class="guide-meta">Draft. The Office action and text formula are verified. The final WhatsApp preview still needs an approved test.</p>
+<p class="guide-meta">Draft. The Office action, text formula and final WhatsApp layout are verified with Codex-only names. The exact app-to-WhatsApp hand-off still needs a final test.</p>
 
 Use this to send the current Harvest Group composition to the work WhatsApp group for checking.
 
@@ -33,5 +33,7 @@ The first heading identifies the Team and Chainsaw Operator. The message then li
 - **Debarkers**.
 
 Only current active Harvest Group members should appear.
+
+![Example of the final Harvest Group message in WhatsApp](../assets/screenshots/office/hg-whatsapp-composition-preview.png)
 
 If an old or inactive member appears, do not send the message as confirmation. Report the incorrect membership first.
