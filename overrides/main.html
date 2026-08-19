@@ -1,0 +1,172 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <style>
+    :root {
+      --axonhill-green: #176b45;
+      --axonhill-green-dark: #0f4f33;
+      --axonhill-cream: #f7f5ed;
+      --axonhill-border: #d7ded9;
+    }
+
+    .md-header { background: var(--axonhill-green-dark); }
+    .md-tabs { background: var(--axonhill-green); }
+    .md-typeset h1 { color: var(--axonhill-green-dark); font-weight: 750; }
+    .md-typeset h2 { font-weight: 700; }
+    .md-typeset ol > li { margin-bottom: .55rem; }
+    .md-typeset .guide-meta {
+      border-left: .25rem solid var(--axonhill-green);
+      color: var(--md-default-fg-color--light);
+      font-size: .76rem;
+      margin: -.4rem 0 1rem;
+      padding: .45rem .75rem;
+    }
+    .axonhill-tools {
+      align-items: center;
+      border-bottom: 1px solid var(--axonhill-border);
+      display: flex;
+      flex-wrap: wrap;
+      gap: .5rem;
+      margin: 0 0 1.15rem;
+      padding: 0 0 1rem;
+    }
+    .axonhill-tools button,
+    .axonhill-tools a {
+      align-items: center;
+      background: transparent;
+      border: 1px solid var(--axonhill-green);
+      border-radius: .35rem;
+      color: var(--axonhill-green-dark);
+      cursor: pointer;
+      display: inline-flex;
+      font: inherit;
+      font-size: .72rem;
+      font-weight: 700;
+      min-height: 2.15rem;
+      padding: .38rem .7rem;
+      text-decoration: none;
+    }
+    .axonhill-tools button:hover,
+    .axonhill-tools a:hover,
+    .axonhill-tools button:focus-visible,
+    .axonhill-tools a:focus-visible {
+      background: var(--axonhill-cream);
+      outline: 2px solid var(--axonhill-green);
+      outline-offset: 2px;
+    }
+    [data-md-color-scheme="slate"] .md-typeset h1,
+    [data-md-color-scheme="slate"] .axonhill-tools button,
+    [data-md-color-scheme="slate"] .axonhill-tools a { color: #9bd7b8; }
+    [data-md-color-scheme="slate"] .axonhill-tools button:hover,
+    [data-md-color-scheme="slate"] .axonhill-tools a:hover { background: #17382b; }
+    .axonhill-copy-status { font-size: .68rem; min-height: 1rem; width: 100%; }
+    @media (max-width: 44rem) {
+      .axonhill-tools button,
+      .axonhill-tools a { flex: 1 1 auto; justify-content: center; }
+    }
+    @media print {
+      .axonhill-tools, .md-header, .md-sidebar, .md-footer { display: none !important; }
+    }
+  </style>
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  <script>
+    (() => {
+      const language = "{{ config.extra.language_code }}";
+      const otherLanguage = "{{ config.extra.alternate_language_code }}";
+      const labels = language === "zu" ? {
+        share: "Yabelana",
+        whatsapp: "Yabelana ku-WhatsApp",
+        copy: "Kopisha isixhumanisi",
+        copied: "Isixhumanisi sikopishiwe.",
+        switchLanguage: "Funda nge-English"
+      } : {
+        share: "Share",
+        whatsapp: "Share on WhatsApp",
+        copy: "Copy link",
+        copied: "Link copied.",
+        switchLanguage: "Funda ngesiZulu"
+      };
+
+      function currentUrl() {
+        return window.location.href.split("#")[0];
+      }
+
+      function languageUrl() {
+        const marker = new RegExp("/(en|zu)(/|$)");
+        return window.location.pathname.replace(marker, `/${otherLanguage}$2`) + window.location.search;
+      }
+
+      async function copyUrl(status) {
+        const value = currentUrl();
+        try {
+          await navigator.clipboard.writeText(value);
+        } catch (_) {
+          const box = document.createElement("textarea");
+          box.value = value;
+          box.setAttribute("readonly", "");
+          box.style.position = "fixed";
+          box.style.opacity = "0";
+          document.body.appendChild(box);
+          box.select();
+          document.execCommand("copy");
+          box.remove();
+        }
+        status.textContent = labels.copied;
+      }
+
+      function addTools() {
+        const article = document.querySelector(".md-content__inner");
+        const heading = article && article.querySelector("h1");
+        if (!article || !heading || article.querySelector(".axonhill-tools")) return;
+
+        document.documentElement.lang = language;
+        const title = heading.textContent.trim();
+        const tools = document.createElement("div");
+        tools.className = "axonhill-tools";
+
+        const languageLink = document.createElement("a");
+        languageLink.href = languageUrl();
+        languageLink.textContent = labels.switchLanguage;
+        tools.appendChild(languageLink);
+
+        if (navigator.share) {
+          const share = document.createElement("button");
+          share.type = "button";
+          share.textContent = labels.share;
+          share.addEventListener("click", () => navigator.share({ title, url: currentUrl() }));
+          tools.appendChild(share);
+        }
+
+        const whatsapp = document.createElement("a");
+        whatsapp.href = `https://wa.me/?text=${encodeURIComponent(title + "\n" + currentUrl())}`;
+        whatsapp.target = "_blank";
+        whatsapp.rel = "noopener";
+        whatsapp.textContent = labels.whatsapp;
+        tools.appendChild(whatsapp);
+
+        const copy = document.createElement("button");
+        copy.type = "button";
+        copy.textContent = labels.copy;
+        const status = document.createElement("span");
+        status.className = "axonhill-copy-status";
+        status.setAttribute("aria-live", "polite");
+        copy.addEventListener("click", () => copyUrl(status));
+        tools.appendChild(copy);
+        tools.appendChild(status);
+
+        heading.insertAdjacentElement("afterend", tools);
+      }
+
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", addTools);
+      } else {
+        addTools();
+      }
+    })();
+  </script>
+{% endblock %}
+

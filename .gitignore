@@ -1,0 +1,21 @@
+.venv/
+site/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Public repository safety boundary
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.zip
+*.bak
+*.private.*
+*credentials*
+*password*
+*app-export*
+

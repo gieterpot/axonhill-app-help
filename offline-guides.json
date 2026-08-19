@@ -1,0 +1,8 @@
+{
+  "enabled": [
+    "field-work/submit-a-batch-harvest-count.md",
+    "field-work/verify-a-harvest-count.md",
+    "office-work/create-an-attendance-report.md"
+  ],
+  "note": "Launch offline guides approved for the count and attendance functions on 2026-08-19."
+}
