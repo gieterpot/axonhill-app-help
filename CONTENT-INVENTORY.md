@@ -10,11 +10,11 @@ The isiZulu theme controls are locally translated as well. Their wording is part
 |---|---|---|---|---|---|---|
 | SITE-00 | `/en/` and `/zu/` | All | Draft | Draft translation | Not applicable | None required |
 | SH-01 | `/LANG/start-here/choose-the-correct-app/` | All | Draft | Draft translation | Sufficient for draft | Field candidate, Office recapture |
-| SH-02/SH-05 | `/LANG/start-here/sign-in-and-sync/` | All | Draft | Draft translation | Field sign-in verified, remaining states partial | Recapture needed |
+| SH-02/SH-05 | `/LANG/start-here/sign-in-and-sync/` | All | Draft | Draft translation | Field sign-in verified, remaining states partial | Public Field login image added; sync and Office images pending |
 | HELP-01 | `/LANG/start-here/find-and-share-help/` | All | Draft | Draft translation | Controls implemented, browser QA blocked | Help-site shots blocked |
 | FLD-01 to FLD-06 | `/LANG/field-work/record-attendance/` | Field supervisor | Draft | Draft translation | Configuration verified, controlled result pending | Supervisor recapture needed |
 | FLD-07 to FLD-10 | `/LANG/field-work/submit-a-harvest-count/` | Field counter | Draft | Draft translation | Form pages verified, final result pending | Mixed candidate/private sources |
-| FLD-08 to FLD-11 | `/LANG/field-work/submit-a-batch-harvest-count/` | Field counter | Draft | Draft translation | Form pages verified, final result pending | Mixed candidate/private sources |
+| FLD-08 to FLD-11 | `/LANG/field-work/submit-a-batch-harvest-count/` | Field counter | Draft | Draft translation | Form pages verified, final result pending | Four public-safe form images added; crew/result images pending |
 | FLD-07/FLD-11 | `/LANG/field-work/verify-a-harvest-count/` | Field worker and counter | Draft | Draft translation | Text content verified, outcomes pending | Controlled test needed |
 | HR-13 | `/LANG/people-harvest-groups/change-a-member-role/` | Office/HR | Draft | Draft translation | Request form verified, result pending | Test group needed |
 | HR-10 | `/LANG/people-harvest-groups/add-an-employee/` | Office/HR | Draft | Draft translation | Request form verified, result pending | Test group needed |

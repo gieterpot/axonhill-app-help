@@ -24,9 +24,14 @@ Lungisa lokhu:
 
 ## Faka ukubalwa
 
+![Ikhasi le-New Batch Count lokukhetha i-Team](../assets/screenshots/field/batch-count-01-select-team.png)
+
 1. Vula i-Field app.
 2. Khetha **New Batch Count**.
 3. Ku-**Select team**, khetha i-team efanele. Khetha **Next**.
+
+![Ikhasi le-New Batch Count lokukhetha i-Compartment](../assets/screenshots/field/batch-count-02-select-compartment.png)
+
 4. Khetha i-compartment. Khetha **Next**.
 5. Khetha i-Harvest Group. Khetha **Next**.
 6. Hlola i-chainsaw operator, ama-marker nama-debarker abonisiwe.
@@ -35,7 +40,12 @@ Lungisa lokhu:
 
 ## Faka ama-work type namanani
 
+![Ikhasi lokufaka ama-work type namanani ngaphambi kokufaka umugqa](../assets/screenshots/field/batch-count-05-worktypes-empty.png)
+
 1. Ku-**Add work types and quantities**, khetha **New**.
+
+![Ifomu elingenalutho lokukhetha i-work type nokufaka inani](../assets/screenshots/field/batch-count-06-add-worktype.png)
+
 2. Khetha i-work type.
 3. Faka inani neminye imininingwane edingekayo.
 4. Save-a lowo mugqa.
@@ -65,4 +75,3 @@ Kufanele ufake okungenani i-work type eyodwa nenani layo.
 Vula **My Recent Batches**. I-batch ingaqala ibonise **Draft** noma **Processing**. Kufanele ishintshe ibe **Completed** uma i-automation isiqedile.
 
 Uma ibonisa **Rejected** noma **Error**, yivule ufunde umlayezo ngaphambi kokuzama futhi.
-

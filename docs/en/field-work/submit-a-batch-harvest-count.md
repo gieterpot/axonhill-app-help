@@ -24,9 +24,14 @@ Have these ready:
 
 ## Enter the count
 
+![New Batch Count page for selecting a Team](../assets/screenshots/field/batch-count-01-select-team.png)
+
 1. Open the Field app.
 2. Select **New Batch Count**.
 3. On **Select team**, choose the correct team. Select **Next**.
+
+![New Batch Count page for selecting a Compartment](../assets/screenshots/field/batch-count-02-select-compartment.png)
+
 4. Choose the compartment. Select **Next**.
 5. Choose the Harvest Group. Select **Next**.
 6. Check the chainsaw operator, markers and debarkers shown for the group.
@@ -35,7 +40,12 @@ Have these ready:
 
 ## Add work types and quantities
 
+![Add work types and quantities page before a line is added](../assets/screenshots/field/batch-count-05-worktypes-empty.png)
+
 1. On **Add work types and quantities**, select **New**.
+
+![Blank form for choosing a work type and entering its quantity](../assets/screenshots/field/batch-count-06-add-worktype.png)
+
 2. Choose the work type.
 3. Enter the quantity and any other required count details.
 4. Save the line.
@@ -65,4 +75,3 @@ You must add at least one work type and quantity.
 Open **My Recent Batches**. The batch may first show **Draft** or **Processing**. It should move to **Completed** after the automation finishes.
 
 If it shows **Rejected** or **Error**, open it and read the message before trying again.
-

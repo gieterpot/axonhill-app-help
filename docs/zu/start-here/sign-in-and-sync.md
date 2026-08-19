@@ -11,10 +11,12 @@ reviewed: 2026-08-19
 
 ## Ngena
 
+![Ifomu le-Field Login elingenalutho eline-Email, Password no-Save](../assets/screenshots/field/sign-in-field-login.png)
+
 1. Vula uhlelo lwe-AxonHill olufanele.
 2. Ku-**Field Login** noma **Office Login**, faka i-email yakho yomsebenzi.
 3. Faka i-password yakho yohlelo.
-4. Khetha **Continue** noma **Sign in**.
+4. Khetha **Save**.
 5. Linda ikhasi lokuqala livuleke.
 
 Ungasebenzisi i-account yomunye umsebenzi. Umsebenzi wakho unquma lokho okuboniswa uhlelo.
@@ -31,4 +33,3 @@ Ungaluvali uhlelo ngesikhathi lusavumelanisa.
 ## Uma lungaqedi
 
 Yiya ku-[Uhlelo aluvuleki noma aluvumelanisi](../fix-a-problem/app-will-not-open-or-sync.md).
-

@@ -11,10 +11,12 @@ reviewed: 2026-08-19
 
 ## Sign in
 
+![Blank Field Login form with Email, Password and Save](../assets/screenshots/field/sign-in-field-login.png)
+
 1. Open the correct AxonHill app.
 2. On **Field Login** or **Office Login**, enter your work email.
 3. Enter your app password.
-4. Select **Continue** or **Sign in**.
+4. Select **Save**.
 5. Wait for the home screen to load.
 
 Do not use another employee's account. Your role controls what the app shows.
@@ -31,4 +33,3 @@ Do not close the app while it is syncing.
 ## If it does not finish
 
 Go to [App will not open or sync](../fix-a-problem/app-will-not-open-or-sync.md).
-
