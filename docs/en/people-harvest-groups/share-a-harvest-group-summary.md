@@ -7,7 +7,7 @@ reviewed: 2026-08-19
 
 # Share a Harvest Group summary
 
-<p class="guide-meta">Draft. The Office action, text formula and final WhatsApp layout are verified with Codex-only names. The exact app-to-WhatsApp hand-off still needs a final test.</p>
+<p class="guide-meta">Draft. The message layout is verified with Codex-only names. The exact action test opened the correct WhatsApp self-chat but left the message field empty. Do not rely on this action until it is corrected.</p>
 
 Use this to send the current Harvest Group composition to the work WhatsApp group for checking.
 
@@ -21,9 +21,10 @@ Use this to send the current Harvest Group composition to the work WhatsApp grou
 4. Open the required group.
 5. Select **Share WhatsApp Summary**.
 6. Wait for WhatsApp to open.
-7. Read the whole message before sending it.
-8. Choose the correct WhatsApp group.
-9. Send the message only when the Harvest Group and member names are correct.
+7. If the composition appears, read the whole message before sending it.
+8. If the message field is empty, close WhatsApp and report the problem. Do not send a blank message.
+9. Choose the correct WhatsApp group.
+10. Send the message only when the Harvest Group and member names are correct.
 
 ## What the message contains
 

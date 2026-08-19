@@ -7,7 +7,7 @@ reviewed: 2026-08-19
 
 # Yabelana ngesifinyezo se-Harvest Group
 
-<p class="guide-meta">Kusalungiswa. Inkinobho, umbhalo nokubukeka kokugcina ku-WhatsApp kuhlolwe ngamagama e-Codex kuphela. Ukusuka ngqo ku-app ukuya ku-WhatsApp kusadinga ukuhlolwa kokugcina.</p>
+<p class="guide-meta">Kusalungiswa. Ukubukeka komlayezo kuhlolwe ngamagama e-Codex kuphela. Ukuhlolwa kwesenzo kuvule i-self-chat efanele ku-WhatsApp kodwa inkundla yomlayezo yahlala ingenalutho. Ungathembeli kulesi senzo kuze silungiswe.</p>
 
 Sebenzisa lokhu ukuthumela abantu abakhona ku-Harvest Group ku-WhatsApp group yomsebenzi ukuze bahlolwe.
 
@@ -21,9 +21,10 @@ Sebenzisa lokhu ukuthumela abantu abakhona ku-Harvest Group ku-WhatsApp group yo
 4. Vula i-group efanele.
 5. Khetha **Share WhatsApp Summary**.
 6. Linda i-WhatsApp ivuleke.
-7. Funda wonke umlayezo ngaphambi kokuwuthumela.
-8. Khetha i-WhatsApp group efanele.
-9. Thumela kuphela uma i-Harvest Group namagama abasebenzi kulungile.
+7. Uma umlayezo uvela, funda wonke umlayezo ngaphambi kokuwuthumela.
+8. Uma inkundla yomlayezo ingenalutho, vala i-WhatsApp bese ubika inkinga. Ungathumeli umlayezo ongenalutho.
+9. Khetha i-WhatsApp group efanele.
+10. Thumela kuphela uma i-Harvest Group namagama abasebenzi kulungile.
 
 ## Okuqukethwe umlayezo
 
