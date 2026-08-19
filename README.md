@@ -4,7 +4,7 @@ Public, bilingual help for the AxonHill Field and Office apps.
 
 ## Safety boundary
 
-This repository is designed to be public. Add only approved help content and irreversibly redacted demonstration screenshots. Never add credentials, AppSheet exports, spreadsheets, signatures, employee identifiers or live operational data.
+This repository is designed to be public. Add only approved help content and irreversibly redacted demonstration screenshots. Never add credentials, AppSheet exports, spreadsheets, signatures, live employee identifiers or live operational data. Clearly fictitious, labelled demonstration identifiers may be used where the guide needs them.
 
 Private source evidence stays in the separate AxonHill client workspace and is never copied here automatically.
 
@@ -29,7 +29,7 @@ python -m venv .venv
 
 Open `http://localhost:8000/`.
 
-The build fails if the English and isiZulu page structures do not match, if required guide metadata is missing, if a known private-file marker appears in the public source, or if generated pages, search indexes and sharing controls are missing.
+The build fails if the English and isiZulu page or asset structures do not match, if matching asset copies differ, if required guide metadata or image alternative text is missing, if an image path is broken, if a known private-file marker appears in the public source, or if generated pages, search indexes, sharing controls and self-contained offline files are incomplete.
 
 ## Publish on GitHub Pages
 
@@ -55,8 +55,8 @@ Pull requests and manual workflow runs build the site without publishing it.
 Store publication-approved screenshots below the matching language folder, for example:
 
 ```text
-docs/en/assets/images/field/submit-count/01-open-new-count.webp
-docs/zu/assets/images/field/submit-count/01-open-new-count.webp
+docs/en/assets/screenshots/field/submit-count-01-open-new-count.webp
+docs/zu/assets/screenshots/field/submit-count-01-open-new-count.webp
 ```
 
 Use WebP for ordinary screenshots and PNG only when lossless text rendering is required. Keep the original private capture outside this public repository.

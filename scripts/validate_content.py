@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import re
 import sys
+from hashlib import sha256
 from pathlib import Path
 
 
@@ -16,6 +17,7 @@ PRIVATE_MARKERS = (
     "app-export",
     "axonhill db",
 )
+MARKDOWN_IMAGE = re.compile(r"!\[([^\]]*)\]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)")
 
 
 def pages(language: str) -> set[Path]:
@@ -60,6 +62,37 @@ def main() -> int:
             for marker in PRIVATE_MARKERS:
                 if marker in lowered:
                     errors.append(f"{path.relative_to(ROOT)}: public source contains blocked marker '{marker}'")
+            for match in MARKDOWN_IMAGE.finditer(text):
+                alt_text, source = match.groups()
+                if not alt_text.strip():
+                    errors.append(f"{path.relative_to(ROOT)}: image is missing alternative text")
+                if source.startswith(("data:", "http://", "https://", "/", "#")):
+                    continue
+                image = (path.parent / source).resolve()
+                language_root = (DOCS / language).resolve()
+                if not image.is_file() or language_root not in image.parents:
+                    errors.append(
+                        f"{path.relative_to(ROOT)}: image is missing or outside the language source: {source}"
+                    )
+
+    asset_sets = {
+        language: {
+            path.relative_to(DOCS / language / "assets")
+            for path in (DOCS / language / "assets").rglob("*")
+            if path.is_file()
+        }
+        for language in LANGUAGES
+    }
+    if asset_sets["en"] != asset_sets["zu"]:
+        for missing in sorted(asset_sets["en"] - asset_sets["zu"]):
+            errors.append(f"Missing isiZulu asset: {missing.as_posix()}")
+        for missing in sorted(asset_sets["zu"] - asset_sets["en"]):
+            errors.append(f"Missing English asset: {missing.as_posix()}")
+    for relative in sorted(asset_sets["en"] & asset_sets["zu"]):
+        english = DOCS / "en" / "assets" / relative
+        isizulu = DOCS / "zu" / "assets" / relative
+        if sha256(english.read_bytes()).digest() != sha256(isizulu.read_bytes()).digest():
+            errors.append(f"Language asset copies differ: {relative.as_posix()}")
 
     for path in ROOT.rglob("*"):
         if not path.is_file() or "site" in path.parts or ".venv" in path.parts:
@@ -80,4 +113,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -9,6 +10,12 @@ ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
 SITE = ROOT / "site"
 PRIVATE_MARKERS = ("internal-private", "test-credentials", "app-export", "passwordinput")
+OFFLINE_MANIFEST = ROOT / "offline-guides.json"
+OFFLINE_IMAGE = re.compile(r'<img\b[^>]*\bsrc="([^"]+)"', re.IGNORECASE)
+
+
+def offline_output_name(relative: Path) -> str:
+    return relative.with_suffix("").as_posix().strip("/").replace("/", "-") + ".html"
 
 
 def output_path(language: str, source: Path) -> Path:
@@ -62,6 +69,23 @@ def main() -> int:
                 if marker in lowered:
                     errors.append(f"{output.relative_to(ROOT)} contains blocked marker: {marker}")
 
+    manifest = json.loads(OFFLINE_MANIFEST.read_text(encoding="utf-8"))
+    for value in manifest.get("enabled", []):
+        relative = Path(value)
+        for language in ("en", "zu"):
+            output = SITE / "downloads" / language / offline_output_name(relative)
+            if not output.is_file():
+                errors.append(f"Missing offline guide: {output.relative_to(ROOT)}")
+                continue
+            text = output.read_text(encoding="utf-8")
+            if 'class="offline-note"' not in text:
+                errors.append(f"{output.relative_to(ROOT)} is missing its offline-copy notice")
+            for source in OFFLINE_IMAGE.findall(text):
+                if not source.startswith("data:"):
+                    errors.append(
+                        f"{output.relative_to(ROOT)} contains a non-embedded image: {source}"
+                    )
+
     if errors:
         print("Generated-site smoke test failed:", file=sys.stderr)
         for error in errors:
@@ -75,4 +99,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

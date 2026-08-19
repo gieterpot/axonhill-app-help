@@ -14,16 +14,16 @@ The isiZulu theme controls are locally translated as well. Their wording is part
 | SH-03/SH-04 | `/LANG/start-here/manage-your-account/` | All | Draft | Draft translation | Field sign-out and Office configuration verified, password result pending | Public Field profile image added; Office result pending |
 | HELP-01 | `/LANG/start-here/find-and-share-help/` | All | Draft | Draft translation | Controls implemented, browser QA blocked | Help-site shots blocked |
 | FLD-01 to FLD-06 | `/LANG/field-work/record-attendance/` | Field supervisor | Draft | Draft translation | Configuration verified, controlled result pending | Supervisor recapture needed |
-| FLD-07 to FLD-10 | `/LANG/field-work/submit-a-harvest-count/` | Field counter | Draft | Draft translation | Form pages verified, final result pending | Mixed candidate/private sources |
+| FLD-07 to FLD-10 | `/LANG/field-work/submit-a-harvest-count/` | Field counter | Draft | Draft translation | Form pages verified, final result pending | Four public native form images added; crew, proof, verification and result images pending |
 | FLD-08 to FLD-11 | `/LANG/field-work/submit-a-batch-harvest-count/` | Field counter | Draft | Draft translation | Form pages verified, final result pending | Four public-safe form images added; crew/result images pending |
 | FLD-07/FLD-11 | `/LANG/field-work/verify-a-harvest-count/` | Field worker and counter | Draft | Draft translation | Text content verified, outcomes pending | Controlled test needed |
 | FLD-12 to FLD-14 | `/LANG/field-work/understand-count-statuses/` | Field counter | Draft | Draft translation | Status meanings verified, fresh transitions pending | Controlled status screenshots needed |
 | HR-07 | `/LANG/people-harvest-groups/view-current-members/` | Office/HR | Verified | Draft translation | Active-only route and isolated result verified | Public Codex-only screenshot added |
-| HR-08 | `/LANG/people-harvest-groups/view-membership-history/` | Office/HR | Draft | Draft translation | Route and filter verified, ended row pending | Public Codex-only screenshot added |
-| HR-13 | `/LANG/people-harvest-groups/change-a-member-role/` | Office/HR | Draft | Draft translation | Request form verified, result pending | Test group needed |
-| HR-10 | `/LANG/people-harvest-groups/add-an-employee/` | Office/HR | Draft | Draft translation | Request form verified, result pending | Test group needed |
+| HR-08 | `/LANG/people-harvest-groups/view-membership-history/` | Office/HR | Verified | Draft translation | Route, role column and ended membership verified | Public Codex-only history screenshot added |
+| HR-13 | `/LANG/people-harvest-groups/change-a-member-role/` | Office/HR | Verified | Draft translation | Controlled Marker-to-Debarker request succeeded | Current and full-history result images added |
+| HR-10 | `/LANG/people-harvest-groups/add-an-employee/` | Office/HR | Verified | Draft translation | Three controlled additional-assignment requests succeeded | Current-members result image added |
 | HR-14 | `/LANG/people-harvest-groups/replace-a-chainsaw-operator/` | Office/HR | Draft | Draft translation | Filter/form verified, result pending | Test group needed |
-| HR-09 | `/LANG/people-harvest-groups/share-a-harvest-group-summary/` | Office/HR | Draft | Draft translation | Action/formula verified, WhatsApp preview blocked | Test group needed |
+| HR-09 | `/LANG/people-harvest-groups/share-a-harvest-group-summary/` | Office/HR | Draft | Draft translation | Action, formula and final WhatsApp layout verified; exact action hand-off pending | Public Codex-only WhatsApp message image added |
 | OFF-01 | `/LANG/office-work/use-the-dashboard/` | Office/admin | Draft | Draft translation | Dashboard panels verified | Demonstration data needed |
 | OFF-03 | `/LANG/office-work/find-a-worklog/` | Office/admin | Draft | Draft translation | List, detail and source-count link verified | Demonstration data needed |
 | OFF-02 | `/LANG/office-work/review-a-count-needing-attention/` | Office/admin | Draft | Draft translation | Queue/detail verified, override result pending | Controlled test needed |
@@ -39,7 +39,6 @@ The Field attendance and normal-count guides are now in navigation and in the ap
 ## P1/P2 guides waiting on product decisions or evidence
 
 - remove a Harvest Group assignment;
-- view full Harvest Group member history;
 - understand harvest-count statuses;
 - resolve a missing employee or Harvest Group choice;
 - Office corrections, approvals and reports.
