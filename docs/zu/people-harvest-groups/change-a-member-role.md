@@ -1,13 +1,13 @@
 ---
 title: Shintsha umsebenzi welungu le-Harvest Group
 flow_id: HR-13
-status: draft-translation-review
+status: published-feedback
 reviewed: 2026-08-19
 ---
 
 # Shintsha umsebenzi welungu le-Harvest Group
 
-<p class="guide-meta">Lo mzila uhlolwe ngokushintsha umsebenzi kusuka ku-Marker kuya ku-Debarker nge-Harvest Group yokuhlola ehlukile ngomhlaka 19 Agasti 2026. Umbhalo wesiZulu usadinga ukuhlolwa umuntu okhuluma isiZulu kahle.</p>
+<p class="guide-meta">Lo mzila uhlolwe ngokushintsha umsebenzi kusuka ku-Marker kuya ku-Debarker nge-Harvest Group yokuhlola ehlukile ngomhlaka 19 Agasti 2026. Umbhalo wesiZulu uvulekele impendulo yabasebenzisi.</p>
 
 Sebenzisa lokhu uma ilungu elikhona le-Harvest Group kufanele lenze omunye umsebenzi.
 

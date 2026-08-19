@@ -20,7 +20,7 @@ PRIVATE_MARKERS = (
 MARKDOWN_IMAGE = re.compile(r"!\[([^\]]*)\]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)")
 ALLOWED_STATUS = {
     "en": {"draft", "verified", "published"},
-    "zu": {"draft-translation-review", "verified", "published"},
+    "zu": {"published-feedback", "verified", "published"},
 }
 
 

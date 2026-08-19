@@ -1,7 +1,7 @@
 ---
 title: Uhlelo aluvuleki noma aluvumelanisi
 flow_id: SH-06
-status: draft-translation-review
+status: published-feedback
 reviewed: 2026-08-19
 ---
 
@@ -43,4 +43,3 @@ Uma uhlelo lusahluleka:
 Uma umlayezo uthi **Unable to fetch app definition** noma **Timed out waiting for a resource**, faka lawo magama njengoba enjalo. Lokhu kusiza umlawuli ahlole ama-table ahamba kancane noma ama-formula ayindilinga.
 
 Ungagcini ukubalwa okufanayo kaningi ngesikhathi uhlelo lumile. Qala uhlole **My Recent Entries** noma **My Recent Batches** uma i-sync isibuyile.
-

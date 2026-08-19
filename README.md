@@ -54,7 +54,7 @@ After a GitHub Pages deployment succeeds, verify every published guide, sitemap 
 3. Keep the same relative path in both language folders.
 4. Update the visible checked date and the front-matter `reviewed` date.
 5. Run `python scripts/build.py` before publishing.
-6. Have Gerhard approve workflow accuracy. Have the nominated fluent reviewer approve isiZulu text.
+6. Have Gerhard approve workflow accuracy. Publish the matching isiZulu page for user feedback and apply corrections that Gerhard passes back.
 
 ## Screenshots
 

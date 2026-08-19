@@ -1,7 +1,7 @@
 ---
 title: Thola i-worklog bese ubuka ukubalwa kwayo
 flow_id: OFF-03
-status: draft-translation-review
+status: published-feedback
 reviewed: 2026-08-19
 ---
 
@@ -27,4 +27,3 @@ Sebenzisa **All Worklogs** ukuthola umsebenzi womsebenzi oyedwa nokubona ukubalw
 3. Buyela ku-worklog uma usuqedile.
 
 Ungasebenzisi **Edit** uma ubuka kuphela. Ifomu lamanje liqukethe izinkambu zangaphakathi futhi kufanele lisetshenziselwe kuphela ukulungisa okulawulwayo.
-

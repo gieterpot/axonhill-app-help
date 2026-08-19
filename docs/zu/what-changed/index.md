@@ -1,7 +1,7 @@
 ---
 title: Okushintshile
 flow_id: REL-00
-status: draft-translation-review
+status: published-feedback
 reviewed: 2026-08-19
 ---
 
@@ -16,4 +16,3 @@ reviewed: 2026-08-19
 - Kufakwe imihlahlandlela yokuqala yokubalwa ne-Harvest Group assignment.
 
 Awukho umhlahlandlela ovunyelwe ukusetshenziswa esidlangalaleni kuze kuhlolwe indlela yokusebenza nezithombe.
-

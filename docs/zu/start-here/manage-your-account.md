@@ -1,7 +1,7 @@
 ---
 title: Shintsha i-password noma uphume
 flow_id: SH-03,SH-04
-status: draft-translation-review
+status: published-feedback
 reviewed: 2026-08-19
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Yabelana ngesifinyezo se-Harvest Group
 flow_id: HR-09
-status: draft-translation-review
+status: published-feedback
 reviewed: 2026-08-19
 ---
 

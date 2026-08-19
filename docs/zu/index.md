@@ -1,13 +1,13 @@
 ---
 title: Usizo Lwezinhlelo ze-AxonHill
 flow_id: SITE-00
-status: draft-translation-review
+status: published-feedback
 reviewed: 2026-08-19
 ---
 
 # Usizo Lwezinhlelo ze-AxonHill
 
-<p class="guide-meta">Leli khasi lisalungiswa. IsiZulu sidinga ukuhlolwa umuntu okhuluma isiZulu kahle.</p>
+<p class="guide-meta">Leli khasi lisalungiswa. Sicela impendulo yabasebenzisi ukuze sithuthukise isiZulu.</p>
 
 Khetha usizo oludingayo.
 

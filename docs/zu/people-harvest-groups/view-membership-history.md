@@ -1,13 +1,13 @@
 ---
 title: Buka wonke umlando wamalungu e-Harvest Group
 flow_id: HR-08
-status: draft-translation-review
+status: published-feedback
 reviewed: 2026-08-19
 ---
 
 # Buka wonke umlando wamalungu e-Harvest Group
 
-<p class="guide-meta">Lo mzila uhlolwe ngokushintsha umsebenzi okulawulwayo nge-Harvest Group yokuhlola ehlukile ngomhlaka 19 Agasti 2026. Umbhalo wesiZulu usadinga ukuhlolwa umuntu okhuluma isiZulu kahle.</p>
+<p class="guide-meta">Lo mzila uhlolwe ngokushintsha umsebenzi okulawulwayo nge-Harvest Group yokuhlola ehlukile ngomhlaka 19 Agasti 2026. Umbhalo wesiZulu uvulekele impendulo yabasebenzisi.</p>
 
 Sebenzisa lokhu ukuze ubone ama-assignment amanje namadala e-Harvest Group.
 

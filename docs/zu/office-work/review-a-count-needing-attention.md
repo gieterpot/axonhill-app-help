@@ -1,7 +1,7 @@
 ---
 title: Hlola ukubalwa okudinga ukunakwa
 flow_id: OFF-02
-status: draft-translation-review
+status: published-feedback
 reviewed: 2026-08-19
 ---
 
@@ -29,4 +29,3 @@ Sebenzisa **Counts Needing Review** ekubalweni okungaqedanga ukuqinisekiswa okuv
 - Ungathumeli okunye ukubalwa ngoba nje okokuqala kusekulolu hlu.
 
 Ngemva kwesenzo esigunyaziwe, vumelanisa bese uqinisekisa ukuthi ukubalwa kuphuma ohlwini lokuhlolwa nokuthi ama-worklog avela kahle.
-

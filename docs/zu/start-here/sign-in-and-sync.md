@@ -1,7 +1,7 @@
 ---
 title: Ngena bese uvumelanisa
 flow_id: SH-02,SH-05
-status: draft-translation-review
+status: published-feedback
 reviewed: 2026-08-19
 ---
 

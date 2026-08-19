@@ -1,7 +1,7 @@
 ---
 title: Qonda ama-status okubalwa
 flow_id: FLD-12,FLD-13,FLD-14
-status: draft-translation-review
+status: published-feedback
 reviewed: 2026-08-19
 ---
 

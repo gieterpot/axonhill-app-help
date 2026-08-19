@@ -1,7 +1,7 @@
 ---
 title: Thola bese wabelana ngosizo
 flow_id: HELP-01
-status: draft-translation-review
+status: published-feedback
 reviewed: 2026-08-19
 ---
 

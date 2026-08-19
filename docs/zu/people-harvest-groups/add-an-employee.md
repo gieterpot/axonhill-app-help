@@ -1,13 +1,13 @@
 ---
 title: Faka umsebenzi ku-Harvest Group
 flow_id: HR-10
-status: draft-translation-review
+status: published-feedback
 reviewed: 2026-08-19
 ---
 
 # Faka umsebenzi ku-Harvest Group
 
-<p class="guide-meta">Lo mzila uhlolwe ngama-request amathathu okulawulwa nge-Harvest Group yokuhlola ehlukile ngomhlaka 19 Agasti 2026. Umbhalo wesiZulu usadinga ukuhlolwa umuntu okhuluma isiZulu kahle.</p>
+<p class="guide-meta">Lo mzila uhlolwe ngama-request amathathu okulawulwa nge-Harvest Group yokuhlola ehlukile ngomhlaka 19 Agasti 2026. Umbhalo wesiZulu uvulekele impendulo yabasebenzisi.</p>
 
 Sebenzisa lokhu ukuze unikeze umsebenzi enye i-Harvest Group assignment.
 

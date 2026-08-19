@@ -1,7 +1,7 @@
 ---
 title: Sebenzisa i-dashboard ye-Office
 flow_id: OFF-01
-status: draft-translation-review
+status: published-feedback
 reviewed: 2026-08-19
 ---
 
@@ -31,4 +31,3 @@ Sebenzisa i-dashboard ukubona kafushane ama-worklog, i-attendance nama-payroll r
 2. Khetha **Reset Dashboard** kanye kuphela.
 3. Uma ama-panel engaveli, vumelanisa uhlelo bese uzama futhi.
 4. Uma namanye ama-view ehamba kancane noma engenalutho, sebenzisa umhlahlandlela othi **Uhlelo aluvuleki noma aluvumelanisi**.
-

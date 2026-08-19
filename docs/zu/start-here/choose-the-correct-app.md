@@ -1,7 +1,7 @@
 ---
 title: Khetha uhlelo olufanele
 flow_id: SH-01
-status: draft-translation-review
+status: published-feedback
 reviewed: 2026-08-19
 ---
 

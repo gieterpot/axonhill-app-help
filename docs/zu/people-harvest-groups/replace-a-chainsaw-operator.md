@@ -1,7 +1,7 @@
 ---
 title: Shintsha osebenzisa i-chainsaw ku-Harvest Group
 flow_id: HR-14
-status: draft-translation-review
+status: published-feedback
 reviewed: 2026-08-19
 ---
 

@@ -1,13 +1,13 @@
 ---
 title: Buka amalungu amanje e-Harvest Group
 flow_id: HR-07
-status: draft-translation-review
+status: published-feedback
 reviewed: 2026-08-19
 ---
 
 # Buka amalungu amanje e-Harvest Group
 
-<p class="guide-meta">Lo mzila uhlolwe ngaphambi nangemuva kokushintsha umsebenzi nge-Harvest Group yokuhlola ehlukile ngomhlaka 19 Agasti 2026. Umbhalo wesiZulu usadinga ukuhlolwa umuntu okhuluma isiZulu kahle.</p>
+<p class="guide-meta">Lo mzila uhlolwe ngaphambi nangemuva kokushintsha umsebenzi nge-Harvest Group yokuhlola ehlukile ngomhlaka 19 Agasti 2026. Umbhalo wesiZulu uvulekele impendulo yabasebenzisi.</p>
 
 Sebenzisa lokhu uma ufuna abantu abasebenza kule Harvest Group manje. Ama-assignment amadala awaboniswa lapha.
 

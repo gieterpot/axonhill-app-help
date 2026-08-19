@@ -1,7 +1,7 @@
 ---
 title: Qinisekisa ukubalwa komsebenzi
 flow_id: FLD-07,FLD-11
-status: draft-translation-review
+status: published-feedback
 reviewed: 2026-08-19
 ---
 
@@ -39,4 +39,3 @@ Ungahloli i-total kuphela. Hlola amagama abasebenzi nomugqa ngamunye womsebenzi.
 4. Lungisa ukubalwa ngaphambi kokuthi kugcinwe ekugcineni.
 
 Ungalokothi ukhethe **Y** ngoba ufuna ukuqeda ifomu kuphela.
-

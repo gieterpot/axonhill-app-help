@@ -1,7 +1,7 @@
 ---
 title: Rekhoda i-attendance
 flow_id: FLD-01,FLD-02,FLD-03,FLD-04,FLD-05,FLD-06
-status: draft-translation-review
+status: published-feedback
 reviewed: 2026-08-19
 ---
 

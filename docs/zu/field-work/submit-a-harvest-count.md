@@ -1,7 +1,7 @@
 ---
 title: Thumela ukubalwa komsebenzi
 flow_id: FLD-07,FLD-08,FLD-09,FLD-10
-status: draft-translation-review
+status: published-feedback
 reviewed: 2026-08-19
 ---
 

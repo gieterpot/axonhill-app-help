@@ -1,7 +1,7 @@
 ---
 title: Yenza i-attendance report
 flow_id: OFF-06,OFF-07
-status: draft-translation-review
+status: published-feedback
 reviewed: 2026-08-19
 ---
 
@@ -33,4 +33,3 @@ Uma i-Team ingenalutho, uhlu lwe-Harvest Group lubonisa wonke ama-group asebenza
 6. Sebenzisa **Export CSV** kuphela uma udinga ikhophi ye-spreadsheet.
 
 Uma i-report ingabi **Generated**, ungenzi ama-request aphindaphindiwe. Vumelanisa kuqala, bese ubika i-request ebambekile kumlawuli wohlelo.
-

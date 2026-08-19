@@ -1,7 +1,7 @@
 ---
 title: Umsebenzi, i-Team noma i-Harvest Group ayibonakali
 flow_id: HR-10,HR-11,HR-12,HR-13,HR-14,HR-15
-status: draft-translation-review
+status: published-feedback
 reviewed: 2026-08-19
 ---
 
