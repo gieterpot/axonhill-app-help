@@ -18,6 +18,10 @@ PRIVATE_MARKERS = (
     "axonhill db",
 )
 MARKDOWN_IMAGE = re.compile(r"!\[([^\]]*)\]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)")
+ALLOWED_STATUS = {
+    "en": {"draft", "verified", "published"},
+    "zu": {"draft-translation-review", "verified", "published"},
+}
 
 
 def pages(language: str) -> set[Path]:
@@ -56,6 +60,11 @@ def main() -> int:
             for key in REQUIRED_FRONT_MATTER:
                 if not metadata.get(key):
                     errors.append(f"{path.relative_to(ROOT)}: missing front matter '{key}'")
+            status = metadata.get("status")
+            if status and status not in ALLOWED_STATUS[language]:
+                errors.append(
+                    f"{path.relative_to(ROOT)}: unsupported {language} status '{status}'"
+                )
             if metadata.get("reviewed") and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", metadata["reviewed"]):
                 errors.append(f"{path.relative_to(ROOT)}: reviewed must use YYYY-MM-DD")
             lowered = text.lower()

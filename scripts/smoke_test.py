@@ -55,6 +55,7 @@ def main() -> int:
         "en": ("Share on WhatsApp", "Download for offline use", "Funda ngesiZulu"),
         "zu": ("Yabelana ku-WhatsApp", "Landa ukuze usebenzise ngaphandle kwe-internet", "Funda nge-English"),
     }
+    expected_search_terms = ("count", "attendance", "hg", "employee", "sync")
     for language in ("en", "zu"):
         index_file = SITE / language / "search" / "search_index.json"
         if not index_file.is_file():
@@ -64,6 +65,14 @@ def main() -> int:
                 search = json.loads(index_file.read_text(encoding="utf-8"))
                 if not search.get("docs"):
                     errors.append(f"Empty {language} search index")
+                else:
+                    searchable = " ".join(
+                        f"{document.get('title', '')} {document.get('text', '')}"
+                        for document in search["docs"]
+                    ).lower()
+                    for term in expected_search_terms:
+                        if term not in searchable:
+                            errors.append(f"{language} search index is missing launch term: {term}")
             except (json.JSONDecodeError, AttributeError):
                 errors.append(f"Invalid {language} search index")
 
