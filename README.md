@@ -41,6 +41,12 @@ The build fails if the English and isiZulu page or asset structures do not match
 
 Pull requests and manual workflow runs build the site without publishing it.
 
+After a GitHub Pages deployment succeeds, verify every published guide, sitemap and offline file:
+
+```powershell
+.\.venv\Scripts\python scripts\live_smoke_test.py
+```
+
 ## Add or change a guide
 
 1. Edit the English page under `docs/en/`.
