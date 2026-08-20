@@ -2,7 +2,7 @@
 title: What changed
 flow_id: REL-00
 status: draft
-reviewed: 2026-08-19
+reviewed: 2026-08-20
 ---
 
 # What changed
@@ -15,5 +15,10 @@ reviewed: 2026-08-19
 - Added mobile search, language switching and page sharing.
 - Added first draft guides for Field counts and Harvest Group assignments.
 
-No help-centre guide is approved for public use until its workflow and screenshots have been reviewed.
+## Known issues found during controlled testing
 
+- Do not submit a normal or batch count when its work type is blank.
+- Do not use **No Work** attendance until its form is corrected.
+- Cancel **Replace Chainsaw Operator** if the target Team or Harvest Group disappears.
+
+These warnings remain in the relevant guides until fresh controlled tests pass.

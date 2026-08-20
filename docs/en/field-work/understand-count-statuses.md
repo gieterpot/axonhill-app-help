@@ -2,7 +2,7 @@
 title: Understand harvest count statuses
 flow_id: FLD-12,FLD-13,FLD-14
 status: draft
-reviewed: 2026-08-19
+reviewed: 2026-08-20
 ---
 
 # Understand harvest count statuses
@@ -16,6 +16,7 @@ Open **My Recent Entries** for normal counts or **My Recent Batches** for batch 
 | **Draft** | The count is saved but is still waiting for processing. | Keep the app online and sync. Do not submit the same count again. |
 | **Processing** | The automation is working on the count. | Wait and sync again. Do not submit a duplicate. |
 | **Completed** | Processing finished successfully. | Open the count and check the final details. |
+| **Partial error** | A batch processed some or none of its lines, and at least one line failed. | Open it, keep the exact message and report the batch ID to the Office. Do not resubmit it. |
 | **Rejected** | The count did not pass a required check. | Open it, read the message and follow the correction instruction. |
 | **Error** | Processing failed. | Open it, keep the error message and report it to the office or administrator. |
 

@@ -2,14 +2,17 @@
 title: Submit a harvest count
 flow_id: FLD-07,FLD-08,FLD-09,FLD-10
 status: draft
-reviewed: 2026-08-19
+reviewed: 2026-08-20
 ---
 
 # Submit a harvest count
 
-<p class="guide-meta">Draft. The form pages are verified. The final saved result still needs a controlled test.</p>
+<p class="guide-meta">Draft. A controlled count was saved on 20 August 2026, but it could not finish processing because its work type was blank.</p>
 
 Use **New Count** to record one work type and quantity for a selected Team, Compartment and Harvest Group.
+
+!!! warning "Do not save without a work type"
+    The current form may show Quantity without showing a Work type field. If you cannot see and select a work type, cancel the count and tell the Office. Saving it will leave the count stuck and no Worklogs will be created.
 
 ## Before you start
 
@@ -71,4 +74,4 @@ Have these ready:
 
 Open **My Recent Entries** and select the new count. Confirm that the Team, Compartment, Harvest Group, people, work type and quantity match what was submitted.
 
-If anything is wrong, do not submit a second copy. Report the incorrect entry to the office first.
+If the work type is blank, processing stays Pending or an error is returned. Do not submit a second copy. Report the incorrect entry and its ID to the Office first.

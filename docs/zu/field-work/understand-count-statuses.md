@@ -2,7 +2,7 @@
 title: Qonda ama-status okubalwa
 flow_id: FLD-12,FLD-13,FLD-14
 status: published-feedback
-reviewed: 2026-08-19
+reviewed: 2026-08-20
 ---
 
 # Qonda ama-status okubalwa
@@ -16,6 +16,7 @@ Vula **My Recent Entries** ukubona ukubalwa okuvamile noma **My Recent Batches**
 | **Draft** | Ukubalwa kugciniwe kodwa kusalinde ukucutshungulwa. | Gcina uhlelo lune-internet bese uyaluvumelanisa. Ungaphindi uthumele ukubalwa okufanayo. |
 | **Processing** | I-automation isacubungula ukubalwa. | Linda bese uyavumelanisa futhi. Ungathumeli ikhophi. |
 | **Completed** | Ukucutshungulwa kuqede kahle. | Vula ukubalwa uhlole imininingwane yokugcina. |
+| **Partial error** | I-batch icubungule eminye imigqa noma ayicubungulanga nowodwa, futhi okungenani umugqa owodwa wehlulekile. | Yivule, ugcine umlayezo oqondile bese ubika i-ID ye-batch ehhovisi. Ungayithumeli futhi. |
 | **Rejected** | Ukubalwa akuphumelelanga ekuhlolweni okudingekayo. | Kuvule, ufunde umlayezo bese ulandela indlela yokulungisa. |
 | **Error** | Ukucutshungulwa kwehlulekile. | Kuvule, ugcine umlayezo we-error bese uwubika ehhovisi noma ku-admin. |
 

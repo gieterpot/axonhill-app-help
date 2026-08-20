@@ -2,14 +2,17 @@
 title: Thumela ukubalwa komsebenzi
 flow_id: FLD-07,FLD-08,FLD-09,FLD-10
 status: published-feedback
-reviewed: 2026-08-19
+reviewed: 2026-08-20
 ---
 
 # Thumela ukubalwa komsebenzi
 
-<p class="guide-meta">Kusalungiswa. Amakhasi efomu ahloliwe. Umphumela wokugcina osave-ile usadinga ukuhlolwa.</p>
+<p class="guide-meta">Kusalungiswa. Ukubalwa kokuhlola kugcinwe ngo-20 Agasti 2026, kodwa akuphelanga ngoba i-work type ibingenalutho.</p>
 
 Sebenzisa **New Count** ukufaka i-work type eyodwa nenani layo le-Team, i-Compartment ne-Harvest Group ekhethiwe.
+
+!!! warning "Ungagcini ngaphandle kwe-work type"
+    Ifomu yamanje ingabonisa i-Quantity ngaphandle kwenkambu ye-Work type. Uma ungakwazi ukubona nokukhetha i-work type, khansela ukubalwa ubikele ihhovisi. Uma ukugcina, ukubalwa kuzohlala kulindile futhi ama-Worklog ngeke adalwe.
 
 ## Ngaphambi kokuqala
 
@@ -71,4 +74,4 @@ Lungisa lokhu:
 
 Vula **My Recent Entries**, bese ukhetha ukubalwa okusha. Hlola i-Team, i-Compartment, i-Harvest Group, abantu, i-work type nenani.
 
-Uma kukhona okungalungile, ungathumeli ikhophi yesibili. Qala ubike ukubalwa okungalungile ehhovisi.
+Uma i-work type ingenalutho, ukucutshungulwa kuhlala ku-Pending noma kubuye i-error. Ungathumeli ikhophi yesibili. Bika ukubalwa ne-ID yalo ehhovisi.

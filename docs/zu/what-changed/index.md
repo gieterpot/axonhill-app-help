@@ -2,7 +2,7 @@
 title: Okushintshile
 flow_id: REL-00
 status: published-feedback
-reviewed: 2026-08-19
+reviewed: 2026-08-20
 ---
 
 # Okushintshile
@@ -15,4 +15,10 @@ reviewed: 2026-08-19
 - Kufakwe ukusesha, ukushintsha ulimi nokwabelana ngekhasi.
 - Kufakwe imihlahlandlela yokuqala yokubalwa ne-Harvest Group assignment.
 
-Awukho umhlahlandlela ovunyelwe ukusetshenziswa esidlangalaleni kuze kuhlolwe indlela yokusebenza nezithombe.
+## Izinkinga ezitholwe ngesikhathi sokuhlola
+
+- Ungathumeli i-count evamile noma i-batch uma i-work type ingenalutho.
+- Ungasebenzisi i-**No Work** attendance kuze ifomu yayo ilungiswe.
+- Khansela **Replace Chainsaw Operator** uma i-Team noma i-Harvest Group okuyiwa kuyo inyamalala.
+
+Lezi zexwayiso zihlala emihlahlandleleni kuze kudlule ukuhlola okusha.

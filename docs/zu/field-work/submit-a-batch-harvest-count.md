@@ -2,14 +2,17 @@
 title: Thumela ukubalwa kwe-batch
 flow_id: FLD-08,FLD-09,FLD-10,FLD-11
 status: published-feedback
-reviewed: 2026-08-19
+reviewed: 2026-08-20
 ---
 
 # Thumela ukubalwa kwe-batch
 
-<p class="guide-meta">Kusalungiswa. Amakhasi efomu ahloliwe. Umphumela wokugcina osave-ile usadinga ukuhlolwa.</p>
+<p class="guide-meta">Kusalungiswa. I-batch yokuhlola igcinwe ngo-20 Agasti 2026 futhi yaqeda nge-Partial error ngoba i-work type ibingenalutho.</p>
 
 Sebenzisa **New Batch Count** uma uthumela i-crew eyodwa enama-work type nenani elilodwa noma amaningi.
+
+!!! warning "Hlola yonke i-work type ngaphambi kokugcina"
+    Ungagcini umugqa obonisa inani kuphela. Igama le-work type ne-unit kumele kubonakale. Umugqa one-work type engenalutho uqeda nge-error futhi awudali irekhodi lomsebenzi elidingekayo.
 
 ## Ngaphambi kokuqala
 
@@ -74,4 +77,4 @@ Kufanele ufake okungenani i-work type eyodwa nenani layo.
 
 Vula **My Recent Batches**. I-batch ingaqala ibonise **Draft** noma **Processing**. Kufanele ishintshe ibe **Completed** uma i-automation isiqedile.
 
-Uma ibonisa **Rejected** noma **Error**, yivule ufunde umlayezo ngaphambi kokuzama futhi.
+Uma ibonisa **Partial error**, **Rejected** noma **Error**, yivule ufunde umlayezo. Ungaphindi uthumele i-batch. Thumela i-ID yayo nomlayezo oqondile ehhovisi.

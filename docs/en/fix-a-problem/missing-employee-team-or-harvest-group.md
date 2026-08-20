@@ -2,7 +2,7 @@
 title: Employee, Team or Harvest Group is missing
 flow_id: HR-10,HR-11,HR-12,HR-13,HR-14,HR-15
 status: draft
-reviewed: 2026-08-19
+reviewed: 2026-08-20
 ---
 
 # Employee, Team or Harvest Group is missing
@@ -32,10 +32,12 @@ Use this when a person, Team or Harvest Group does not appear in an assignment o
 |---|---|---|
 | **Add Additional Assignment** or **Move Assignment** | Active employees | Check that the employee is marked active. |
 | **Remove Assignment** | Employees with an active Team membership | Check that the employee still has the assignment you intend to remove. |
-| **Replace Chainsaw Operator** | Active employees whose default role is **Chainsaw Operator** | Check the employee's default role. A Marker or Debarker will not appear. |
+| **Replace Chainsaw Operator** | Active employees whose default role is **Chainsaw Operator** | Check the default role and confirm that the operator is already an active member of the target Team. The current selector does not enforce the Team check. |
 | **Change Harvest Group Role** | Current members of the selected Harvest Group | Open the member from the correct group before starting the request. |
 
 Do not select **New** in a dropdown to work around a missing record. That can create a duplicate or incomplete employee, role or Harvest Group.
+
+For Field attendance, a Supervisor must also have an active membership in the Team. Merely selecting that employee in the Team's Supervisor field does not make the Team appear in **Start Day**.
 
 ## Role is blank or rejected
 

@@ -2,14 +2,17 @@
 title: Submit a batch harvest count
 flow_id: FLD-08,FLD-09,FLD-10,FLD-11
 status: draft
-reviewed: 2026-08-19
+reviewed: 2026-08-20
 ---
 
 # Submit a batch harvest count
 
-<p class="guide-meta">Draft. The form pages are verified. The final saved result still needs a controlled test.</p>
+<p class="guide-meta">Draft. A controlled batch was saved on 20 August 2026 and finished with Partial error because its work type was blank.</p>
 
 Use **New Batch Count** when one submission has one crew and one or more work types and quantities.
+
+!!! warning "Check every work type before saving"
+    Do not save a line that shows only a quantity. The work type name and unit must both be present. A line with a blank work type finishes as an error and does not create the required downstream work record.
 
 ## Before you start
 
@@ -74,4 +77,4 @@ You must add at least one work type and quantity.
 
 Open **My Recent Batches**. The batch may first show **Draft** or **Processing**. It should move to **Completed** after the automation finishes.
 
-If it shows **Rejected** or **Error**, open it and read the message before trying again.
+If it shows **Partial error**, **Rejected** or **Error**, open it and read the message. Do not submit the batch again. Send its ID and the exact message to the Office.

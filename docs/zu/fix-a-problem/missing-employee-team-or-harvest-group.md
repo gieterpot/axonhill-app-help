@@ -2,7 +2,7 @@
 title: Umsebenzi, i-Team noma i-Harvest Group ayibonakali
 flow_id: HR-10,HR-11,HR-12,HR-13,HR-14,HR-15
 status: published-feedback
-reviewed: 2026-08-19
+reviewed: 2026-08-20
 ---
 
 # Umsebenzi, i-Team noma i-Harvest Group ayibonakali
@@ -32,10 +32,12 @@ Sebenzisa lokhu uma umuntu, i-Team noma i-Harvest Group ingaveli efomini le-assi
 |---|---|---|
 | **Add Additional Assignment** noma **Move Assignment** | Abasebenzi abasebenzayo | Hlola ukuthi umsebenzi umakwe ukuthi active. |
 | **Remove Assignment** | Abasebenzi abane-Team membership esebenzayo | Hlola ukuthi umsebenzi usenayo i-assignment ofuna ukuyisusa. |
-| **Replace Chainsaw Operator** | Abasebenzi abasebenzayo abane-default role ethi **Chainsaw Operator** | Hlola i-default role yomsebenzi. I-Marker noma i-Debarker ngeke ivele. |
+| **Replace Chainsaw Operator** | Abasebenzi abasebenzayo abane-default role ethi **Chainsaw Operator** | Hlola i-default role futhi uqinisekise ukuthi lowo operator useyilungu elisebenzayo le-Team okuyiwa kuyo. Uhlu lwamanje aluhloli i-Team. |
 | **Change Harvest Group Role** | Amalungu akhona e-Harvest Group ekhethiwe | Vula ilungu ku-group efanele ngaphambi kokuqala i-request. |
 
 Ungakhethi **New** ku-dropdown ukuze uzame ukulungisa i-record engekho. Lokho kungadala umsebenzi, i-role noma i-Harvest Group ephindwe kabili noma engaphelele.
+
+Ku-Field attendance, i-Supervisor kufanele futhi ibe ne-Team membership esebenzayo. Ukuyikhetha kuphela enkambini ye-Supervisor ye-Team akuyenzi i-Team ivele ku-**Start Day**.
 
 ## I-role ayikhethiwe noma iyanqatshwa
 

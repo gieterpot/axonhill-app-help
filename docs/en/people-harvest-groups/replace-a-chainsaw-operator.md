@@ -2,14 +2,17 @@
 title: Replace a Harvest Group chainsaw operator
 flow_id: HR-14
 status: draft
-reviewed: 2026-08-19
+reviewed: 2026-08-20
 ---
 
 # Replace a Harvest Group chainsaw operator
 
-<p class="guide-meta">Draft. The replacement form and employee filter are verified. The final processed result still needs a controlled test.</p>
+<p class="guide-meta">Draft. The employee filter is verified, but the current form loses the target Team and Harvest Group.</p>
 
 Use this when one person must stop being the group's chainsaw operator and another person must take over.
+
+!!! warning "Do not submit while the Team or Harvest Group disappears"
+    The current form can hide and clear the target Team and Harvest Group after **Replace Chainsaw Operator** is selected. If either value is missing, cancel the form. A request without them remains Pending and does not replace the operator.
 
 The old operator is removed from the Harvest Group. Use a normal role change instead if the old operator must stay in the group in another role.
 
@@ -23,10 +26,11 @@ The old operator is removed from the Harvest Group. Use a normal role change ins
 4. Open the required group.
 5. Select **Add Employee**.
 6. Under **Request Type**, choose **Replace Chainsaw Operator**.
-7. Under **Employee**, choose the new chainsaw operator.
-8. Choose the effective date.
-9. Add a note if needed.
-10. Select **Save** once.
+7. Confirm that **To this team** and **To this harvest group** still show the correct values. If either field has disappeared, cancel and stop.
+8. Under **Employee**, choose the new chainsaw operator.
+9. Choose the effective date.
+10. Add a note if needed.
+11. Select **Save** once only when both target values are present.
 
 The employee list shows active employees whose default role is **Chainsaw Operator**. It may include operators from other teams, so check the name carefully.
 
