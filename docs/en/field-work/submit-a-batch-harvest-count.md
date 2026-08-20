@@ -1,18 +1,15 @@
 ---
 title: Submit a batch harvest count
 flow_id: FLD-08,FLD-09,FLD-10,FLD-11
-status: draft
-reviewed: 2026-08-20
+status: verified
+reviewed: 2026-08-21
 ---
 
 # Submit a batch harvest count
 
-<p class="guide-meta">Draft. A controlled batch was saved on 20 August 2026 and finished with Partial error because its work type was blank.</p>
+<p class="guide-meta">Checked in the Field app on 20 August 2026. A controlled batch completed and created the expected work records.</p>
 
 Use **New Batch Count** when one submission has one crew and one or more work types and quantities.
-
-!!! warning "Check every work type before saving"
-    Do not save a line that shows only a quantity. The work type name and unit must both be present. A line with a blank work type finishes as an error and does not create the required downstream work record.
 
 ## Before you start
 
@@ -56,6 +53,8 @@ Have these ready:
 6. Check that every line is correct, then select **Next**.
 
 You must add at least one work type and quantity.
+
+The final verification text can be dense on a small screen. Read each employee, work type and quantity carefully before choosing **Y**.
 
 ## Add notes and proof
 

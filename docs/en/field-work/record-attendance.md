@@ -2,7 +2,7 @@
 title: Record attendance
 flow_id: FLD-01,FLD-02,FLD-03,FLD-04,FLD-05,FLD-06
 status: draft
-reviewed: 2026-08-20
+reviewed: 2026-08-21
 ---
 
 # Record attendance
@@ -11,8 +11,8 @@ reviewed: 2026-08-20
 
 Use the Field app to record who is present, absent or doing mop-up work. Attendance is available to Supervisors, Managers and Admins after a Team and Compartment have been selected.
 
-!!! warning "No Work is temporarily unavailable"
-    The current **No Work** action does not save the selected status correctly. Do not use it until the Office confirms that it has been fixed. Use the normal escalation process instead.
+!!! warning "No Work is not yet reliable"
+    **No Work** can appear correctly on the device after a sync but fail to reach the Office records. Do not rely on it until the Office confirms that server-side saving has been fixed.
 
 ## Start the day
 

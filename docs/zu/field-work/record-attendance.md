@@ -2,7 +2,7 @@
 title: Rekhoda i-attendance
 flow_id: FLD-01,FLD-02,FLD-03,FLD-04,FLD-05,FLD-06
 status: published-feedback
-reviewed: 2026-08-20
+reviewed: 2026-08-21
 ---
 
 # Rekhoda i-attendance
@@ -11,8 +11,8 @@ reviewed: 2026-08-20
 
 Sebenzisa i-Field app ukurekhoda ukuthi ubani okhona, ongekho noma owenza i-mop-up. I-Attendance itholakala ku-Supervisor, Manager noma Admin ngemva kokukhetha i-Team ne-Compartment.
 
-!!! warning "I-No Work ayisebenzi okwamanje"
-    I-action yamanje ethi **No Work** ayigcini i-status ngendlela efanele. Ungayisebenzisi kuze ihhovisi liqinisekise ukuthi isilungisiwe. Sebenzisa indlela evamile yokubika inkinga.
+!!! warning "I-No Work ayikabi nethembekile"
+    **No Work** ingabonakala ilungile kudivayisi ngemva kwe-sync kodwa ingafiki kuma-record asehhovisi. Ungayethembi kuze ihhovisi liqinisekise ukuthi ukugcinwa ku-server kulungisiwe.
 
 ## Qala usuku
 

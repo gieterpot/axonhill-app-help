@@ -25,6 +25,10 @@ Khetha usizo oludingayo.
 - [Thumela ukubalwa kwe-batch](field-work/submit-a-batch-harvest-count.md)
 - [Qinisekisa ukubalwa](field-work/verify-a-harvest-count.md)
 - [Qonda ama-status okubalwa](field-work/understand-count-statuses.md)
+- [Buka i-stock nemishini](field-work/view-stock-and-equipment.md)
+- [Qinisekisa i-stock engenayo](field-work/confirm-incoming-stock.md)
+- [Cela i-stock](field-work/request-stock.md)
+- [Khipha noma buyisa i-stock](field-work/issue-or-return-stock.md)
 
 ## Ama-Harvest Group
 

@@ -25,6 +25,10 @@ Choose what you need help with.
 - [Submit a batch harvest count](field-work/submit-a-batch-harvest-count.md)
 - [Verify a harvest count](field-work/verify-a-harvest-count.md)
 - [Understand count statuses](field-work/understand-count-statuses.md)
+- [View stock and equipment](field-work/view-stock-and-equipment.md)
+- [Confirm incoming stock](field-work/confirm-incoming-stock.md)
+- [Request stock](field-work/request-stock.md)
+- [Issue or return stock](field-work/issue-or-return-stock.md)
 
 ## Harvest Groups
 
