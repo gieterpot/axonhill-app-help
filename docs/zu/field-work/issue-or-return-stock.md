@@ -7,11 +7,11 @@ reviewed: 2026-08-21
 
 # Khipha noma buyisa i-stock
 
-<p class="guide-meta">Akusebenzi okwamanje. Ukuhlola kwe-Issue kuthole umphumela we-stock ongafanele ngo-20 Agasti 2026.</p>
+<p class="guide-meta">I-Issue ayisebenzi okwamanje. I-Return isadinga ukuhlolwa kokugcina.</p>
 
-!!! danger "Ungasebenzisi i-Issue noma i-Return okwamanje"
-    Ukukhipha into eyodwa yokuhlola kwandise i-stock yendawo esikhundleni sokuyinciphisa. Ungasebenzisi **Issue stock** noma **Return** nge-stock yangempela kuze ihhovisi liqinisekise ukuthi kulungisiwe futhi kuhlolwe kabusha.
+!!! danger "Ungasebenzisi i-Issue stock okwamanje"
+    I-quantity kufanele ibe positive, kodwa i-Issue eyodwa yokuhlola igcine i-source movement iyi-positive esikhundleni sokuba negative. Ungasebenzisi **Issue stock** nge-stock yangempela kuze ihhovisi liqinisekise ukuthi ifomula ilungisiwe futhi ihlolwe kabusha.
 
 Bhala umsebenzi, into, usayizi noma imodeli, inani nendawo, bese uthumela leyo mininingwane ehhovisi ngendlela yamanje.
 
-Lo mhlahlandlela uzoshintshwa ngezinyathelo ezijwayelekile uma i-Issue ne-Return sekuhlolwe ngempumelelo.
+Ama-Transfer ahloliwe asebenzise ama-sign afanele e-source nase-destination. I-Return ayiboniswanga ukuthi inephutha, kodwa isadinga ukuhlolwa okuhlukile ngaphambi kokuba lo mhlahlandlela unikeze izinyathelo ezijwayelekile.

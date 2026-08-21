@@ -7,11 +7,11 @@ reviewed: 2026-08-21
 
 # Issue or return stock
 
-<p class="guide-meta">Temporarily unavailable. A controlled Issue test found an incorrect stock-balance result on 20 August 2026.</p>
+<p class="guide-meta">Issue is temporarily unavailable. Return still needs a controlled final test.</p>
 
-!!! danger "Do not use Issue or Return yet"
-    Issuing one test item increased the source balance instead of reducing it. Until the Office confirms that this has been corrected and retested, do not use **Issue stock** or **Return** for live stock.
+!!! danger "Do not use Issue stock yet"
+    The raw quantity is correctly positive, but one controlled Issue stored a positive source movement instead of a negative one. Until the Office confirms that the Issue formula has been corrected and retested, do not use **Issue stock** for live stock.
 
 Record the employee, item, size or model, quantity and location, then send those details to the Office through the current manual process.
 
-This guide will be replaced with the normal issue and return steps after both movements have passed a controlled test.
+Transfer movements inspected during this test used the correct source and destination signs. Return was not shown to be faulty, but its final Field result still needs a separate controlled test before this guide gives normal Return steps.

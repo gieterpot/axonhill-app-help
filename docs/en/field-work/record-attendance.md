@@ -1,18 +1,15 @@
 ---
 title: Record attendance
 flow_id: FLD-01,FLD-02,FLD-03,FLD-04,FLD-05,FLD-06
-status: draft
+status: verified
 reviewed: 2026-08-21
 ---
 
 # Record attendance
 
-<p class="guide-meta">Draft. Start Day, roster filtering and the main saved attendance states were tested on 20 August 2026.</p>
+<p class="guide-meta">Checked in the Field app and source workbook on 20 to 21 August 2026.</p>
 
 Use the Field app to record who is present, absent or doing mop-up work. Attendance is available to Supervisors, Managers and Admins after a Team and Compartment have been selected.
-
-!!! warning "No Work is not yet reliable"
-    **No Work** can appear correctly on the device after a sync but fail to reach the Office records. Do not rely on it until the Office confirms that server-side saving has been fixed.
 
 ## Start the day
 
@@ -44,9 +41,8 @@ If **Attendance** is not visible, return to **Start Day** and check that both Te
 Open the employee's attendance actions and choose the correct status:
 
 - **Absent** when the employee is absent;
-- **Reported Absent** when the employee reported that they would be absent.
-
-Do not use **No Work** while the warning at the top of this guide remains in place.
+- **Reported Absent** when the employee reported that they would be absent;
+- **No Work** when the employee is available but there is no work for them. Complete any reason, note or proof requested by the form.
 
 Check the updated status before moving to the next employee.
 

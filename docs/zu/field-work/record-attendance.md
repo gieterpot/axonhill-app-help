@@ -7,12 +7,9 @@ reviewed: 2026-08-21
 
 # Rekhoda i-attendance
 
-<p class="guide-meta">Kusalungiswa. I-Start Day, ukuhlunga i-roster nama-status amakhulu agciniwe kuhlolwe ngo-20 Agasti 2026.</p>
+<p class="guide-meta">Kuhlolwe ku-Field app nakwi-workbook ngo-20 kuya ku-21 Agasti 2026.</p>
 
 Sebenzisa i-Field app ukurekhoda ukuthi ubani okhona, ongekho noma owenza i-mop-up. I-Attendance itholakala ku-Supervisor, Manager noma Admin ngemva kokukhetha i-Team ne-Compartment.
-
-!!! warning "I-No Work ayikabi nethembekile"
-    **No Work** ingabonakala ilungile kudivayisi ngemva kwe-sync kodwa ingafiki kuma-record asehhovisi. Ungayethembi kuze ihhovisi liqinisekise ukuthi ukugcinwa ku-server kulungisiwe.
 
 ## Qala usuku
 
@@ -44,9 +41,8 @@ Uma **Attendance** ingabonakali, buyela ku-**Start Day** uhlole ukuthi i-Team ne
 Vula ama-attendance action omsebenzi bese ukhetha i-status efanele:
 
 - **Absent** uma umsebenzi engekho;
-- **Reported Absent** uma umsebenzi ebikile ukuthi ngeke abe khona.
-
-Ungasebenzisi **No Work** uma isexwayiso esiphezulu sisabonakala.
+- **Reported Absent** uma umsebenzi ebikile ukuthi ngeke abe khona;
+- **No Work** uma umsebenzi ekhona kodwa kungekho msebenzi wakhe. Gcwalisa isizathu, i-note noma ubufakazi obucelwa yifomu.
 
 Hlola i-status entsha ngaphambi kokudlulela komunye umuntu.
 
